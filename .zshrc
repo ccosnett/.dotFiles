@@ -11,7 +11,7 @@ amazon()
 {
     HO_DIR=ubuntu_1.pem;
     chmod 400 ${HO_DIR};
-    ssh -i "${HO_DIR}" ubuntu@ec2-34-252-141-215.eu-west-1.compute.amazonaws.com
+    ssh -i "${HO_DIR}" ubuntu@ec2-52-16-45-222.eu-west-1.compute.amazonaws.com
 
 
 }

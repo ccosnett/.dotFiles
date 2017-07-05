@@ -15,12 +15,12 @@ function pause(){
 
 
 #####emacs24####
-sudo passwd ubuntu *
+sudo passwd ubuntu 
 
-sudo rm -r /etc/sudoers.d/90-cloud-init-users
+#sudo rm -r /etc/sudoers.d/90-cloud-init-users
 
 pause "chownclown smoker"
-sudo chown -R ubuntu *
+#sudo chown -R ubuntu *
 
 pause '___________--  0.1       '
 sudo apt-get update
