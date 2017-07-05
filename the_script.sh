@@ -70,11 +70,13 @@ sudo sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/to
 
 pause '___________--8'
 sudo locale-gen en_GB.UTF-8
-pause '___________--9'
-cd ..;
+pause '___________--9  start of the cubing...'
+pwd
+#cd ..;
 pause '___________--10'
 sudo git clone https://github.com/JohnCosnett/quantum_2017.git;
 pause '___________--11'
+pwd
 mkdir cube_0;
 sudo mkdir cube_0;
 pause '___________--12'
