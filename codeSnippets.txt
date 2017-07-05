@@ -1,0 +1,30 @@
+open  /Applications/Mathematica.app/Contents/SystemFiles/FrontEnd/TextResources/Macintosh
+
+
+
+ln -s ~/.dotFiles/KeyEventTranslations.tr /Applications/Mathematica.app/Contents/SystemFiles/FrontEnd/TextResources/Macintosh/KeyEventTranslations.tr;
+
+
+######DefaultFrontEndInit.tr
+
+cp  /Applications/Mathematica.app/Contents/SystemFiles/FrontEnd/TextResources/Macintosh/DefaultFrontEndInit.tr ~/.dotFiles/mathematicas/;rm /Applications/Mathematica.app/Contents/SystemFiles/FrontEnd/TextResources/Macintosh/DefaultFrontEndInit.tr;ln -s ~/.dotFiles/DefaultFrontEndInit.tr /Applications/Mathematica.app/Contents/SystemFiles/FrontEnd/TextResources/Macintosh/DefaultFrontEndInit.tr;
+
+
+###############MenuSetup.tr
+
+cp  /Applications/Mathematica.app/Contents/SystemFiles/FrontEnd/TextResources/Macintosh/MenuSetup.tr ~/.dotFiles/mathematicas/;
+
+
+rm /Applications/Mathematica.app/Contents/SystemFiles/FrontEnd/TextResources/Macintosh/MenuSetup.tr;
+
+ln -s ~/.dotFiles/MenuSetup.tr /Applications/Mathematica.app/Contents/SystemFiles/FrontEnd/TextResources/Macintosh/MenuSetup.tr;
+
+
+##########SystemMenuSetup.tr
+
+cp  /Applications/Mathematica.app/Contents/SystemFiles/FrontEnd/TextResources/Macintosh/SystemMenuSetup.tr ~/.dotFiles/mathematicas/;
+
+
+rm /Applications/Mathematica.app/Contents/SystemFiles/FrontEnd/TextResources/Macintosh/SystemMenuSetup.tr;
+
+ln -s ~/.dotFiles/SystemMenuSetup.tr /Applications/Mathematica.app/Contents/SystemFiles/FrontEnd/TextResources/Macintosh/SystemMenuSetup.tr;
