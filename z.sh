@@ -34,11 +34,14 @@ sudo apt-get install python-pip python-dev
 pip install tensorflow 
 
 
+pause "test tensor flow"
+python ~/.dotFiles/short_tensor_flow_program.py
 
-pause '___________--10'
-sudo git clone https://github.com/JohnCosnett/quantum_2017.git;
-pause '___________--11'
-pwd
+
+#pause '___________--download quantum'
+#sudo git clone https://github.com/JohnCosnett/quantum_2017.git;
+#pause '___________--11'
+#pwd
 mkdir cube_0;
 
 pause '___________--12'
@@ -50,6 +53,18 @@ sudo git clone https://github.com/tensorflow/models.git
 pause '___________--15'
 
 
+pause "adding bazel to apt-get repository list or redirecting from debian or smthg....."
+echo "deb [arch=amd64] http://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list
+curl https://bazel.build/bazel-release.pub.gpg | sudo apt-key add -
+
+sudo apt-get update && sudo apt-get install bazel
+
+sudo apt-get upgrade bazel
+
+
+
+pause "test tensor flow again....."
+python ~/.dotFiles/short_tensor_flow_program.py
 
 
 
