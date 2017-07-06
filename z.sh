@@ -25,7 +25,7 @@ pause "install python"
 sudo apt-get install python
 
 pause "upgrade pip"
-sudo -H pip install --upgrade pip
+pip install --upgrade pip
 
 pause "install tf"
 python -V
