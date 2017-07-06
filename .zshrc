@@ -13,10 +13,10 @@ export ZSH=~/.oh-my-zsh;
 #  git clone https://github.com/JohnCosnett/.dotFiles.git
 
 
-}
+
 amaz()
 {
-    num=ec2-52-209-31-109.eu-west-1.compute.amazonaws.com
+    num=ec2-52-209-31-109.eu-west-1.compute.amazonaws.com;
     HO_DIR=~/Downloads/ubuntu_1.pem;
     chmod 400 ${HO_DIR};
     ssh -i "${HO_DIR}" ubuntu@${num}
