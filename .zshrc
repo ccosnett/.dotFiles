@@ -11,22 +11,10 @@ export ZSH=~/.oh-my-zsh;
 
 #_____________________________AMAZON_WEB_SERVICES_______________________________
 #  git clone https://github.com/JohnCosnett/.dotFiles.git
-f23()
-{
-    a="23"
-    mkdir "b"${a}
-}
-
-amazon()
-{
-    number=2-52-17-233-59
-    HO_DIR=~/Downloads/ubuntu_1.pem;
-    chmod 400 ${HO_DIR};
-    ssh -i "${HO_DIR}" ubuntu@ec${number}.eu-west-1.compute.amazonaws.com
 
 
 }
-amazon2()
+amaz()
 {
     num=ec2-52-16-2-28.eu-west-1.compute.amazonaws.com
     HO_DIR=~/Downloads/ubuntu_1.pem;
@@ -35,11 +23,6 @@ amazon2()
 
 }
 
-
-amazBEAST()
-{
-    ssh -i "~/Downloads/general_purpose.pem" ubuntu@ec2-54-88-51-208.compute-1.amazonaws.com
-}
 
 
 #_________________________________________________________________________
