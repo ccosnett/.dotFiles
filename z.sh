@@ -22,7 +22,7 @@ sudo apt-get update
 sudo apt-get htop
 
 pause "install python"
-sudo dnf install python2
+sudo apt-get install python
 
 pause "upgrade pip"
 sudo -H pip2 install --upgrade pip
