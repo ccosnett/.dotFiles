@@ -16,11 +16,10 @@ export ZSH=~/.oh-my-zsh;
 
 amaz()
 {
-    num=ec2-52-209-31-109.eu-west-1.compute.amazonaws.com;
-    HO_DIR=~/Downloads/ubuntu_1.pem;
+    num=ec2-34-248-0-144.eu-west-1.compute.amazonaws.com
+    HO_DIR=~/Downloads/compute.pem;
     chmod 400 ${HO_DIR};
     ssh -i "${HO_DIR}" ubuntu@${num}
-
 }
 
 
