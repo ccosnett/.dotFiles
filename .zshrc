@@ -1,4 +1,8 @@
 #   git clone https://github.com/JohnCosnett/.dotFiles.git
+# git clone https://github.com/JohnCosnett/pymes.git
+
+#i-0bef940e347fcbedb: ec2-52-215-69-201.eu-west-1.compute.amazonaws.com
+#i-03633a6f87d8a3147:
 export ZSH=~/.oh-my-zsh;
 
 
@@ -15,7 +19,7 @@ f23()
 
 amazon()
 {
-    number=2-52-51-197-19
+    number=2-52-17-233-59
     HO_DIR=~/Downloads/ubuntu_1.pem;
     chmod 400 ${HO_DIR};
     ssh -i "${HO_DIR}" ubuntu@ec${number}.eu-west-1.compute.amazonaws.com
@@ -24,8 +28,10 @@ amazon()
 }
 amazon2()
 {
-    chmod 400 ubuntu_1.pem
-    ssh -i "ubuntu_1.pem" ubuntu@ec2-34-252-141-215.eu-west-1.compute.amazonaws.com
+    num=ec2-52-208-165-112.eu-west-1.compute.amazonaws.com
+    HO_DIR=~/Downloads/ubuntu_1.pem;
+    chmod 400 ${HO_DIR};
+    ssh -i "${HO_DIR}" ubuntu@${num}
 
 }
 
