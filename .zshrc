@@ -28,7 +28,7 @@ amazon()
 }
 amazon2()
 {
-    num=ec2-52-208-165-112.eu-west-1.compute.amazonaws.com
+    num=ec2-52-16-2-28.eu-west-1.compute.amazonaws.com
     HO_DIR=~/Downloads/ubuntu_1.pem;
     chmod 400 ${HO_DIR};
     ssh -i "${HO_DIR}" ubuntu@${num}

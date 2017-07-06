@@ -17,7 +17,39 @@ sudo passwd ubuntu
 
 #sudo rm -r /etc/sudoers.d/90-cloud-init-users
 
-pause "chownclown smoker"
+pause "update apt"
+sudo apt-get update
+sudo apt-get htop
+
+pause "install python"
+sudo dnf install python2
+
+pause "upgrade pip"
+sudo -H pip2 install --upgrade pip
+
+pause "install tf"
+python -V
+sudo apt-get install python-pip python-dev
+pip install tensorflow 
+
+
+
+pause '___________--10'
+sudo git clone https://github.com/JohnCosnett/quantum_2017.git;
+pause '___________--11'
+pwd
+mkdir cube_0;
+sudo mkdir cube_0;
+pause '___________--12'
+cd cube_0;
+pause '___________--13'
+sudo git clone https://github.com/JohnCosnett/pymes.git;
+pause '___________--14'
+sudo git clone https://github.com/tensorflow/models.git
+pause '___________--15'
+
+
+
 
 
 #pause '___________--  0.1       '
@@ -77,19 +109,6 @@ pause "chownclown smoker"
 # pause '___________--9  start of the cubing...'
 # pwd
 #cd ..;
-pause '___________--10'
-sudo git clone https://github.com/JohnCosnett/quantum_2017.git;
-pause '___________--11'
-pwd
-mkdir cube_0;
-sudo mkdir cube_0;
-pause '___________--12'
-cd cube_0;
-pause '___________--13'
-sudo git clone https://github.com/JohnCosnett/pymes.git;
-pause '___________--14'
-sudo git clone https://github.com/tensorflow/models.git
-pause '___________--15'
 
 
 
