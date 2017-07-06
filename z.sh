@@ -20,6 +20,7 @@ sudo passwd ubuntu
 pause "update apt"
 sudo apt-get update
 sudo apt-get htop
+sudo locale-gen en_GB.UTF-8
 
 pause "install python"
 sudo apt-get install python
@@ -105,7 +106,7 @@ pause '___________--15'
 
 
 # pause '___________--8'
-# sudo locale-gen en_GB.UTF-8
+#sudo locale-gen en_GB.UTF-8
 # pause '___________--9  start of the cubing...'
 # pwd
 #cd ..;
