@@ -23,7 +23,7 @@ sudo apt-get htop
 sudo locale-gen en_GB.UTF-8
 
 pause "install python"
-sudo apt-get install python
+#sudo apt-get install python
 
 pause "upgrade pip"
 pip install --upgrade pip
@@ -40,7 +40,7 @@ sudo git clone https://github.com/JohnCosnett/quantum_2017.git;
 pause '___________--11'
 pwd
 mkdir cube_0;
-sudo mkdir cube_0;
+
 pause '___________--12'
 cd cube_0;
 pause '___________--13'
