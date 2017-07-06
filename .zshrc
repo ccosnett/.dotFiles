@@ -17,7 +17,7 @@ export ZSH=~/.oh-my-zsh;
 amaz()
 {
     num=ec2-34-248-0-144.eu-west-1.compute.amazonaws.com
-    HO_DIR=~/Downloads/compute.pem;
+    HO_DIR=~/.dotFiles/aws_keys/compute.pem;
     chmod 400 ${HO_DIR};
     ssh -i "${HO_DIR}" ubuntu@${num}
 }
@@ -358,15 +358,15 @@ source $ZSH/oh-my-zsh.sh
 
 
 
-mpp()
-{
-	for i in Screen*; 
-	do echo $i;
-	mv $i 
-	done
-}
+# mpp()
+# {
+# 	for i in Screen*; 
+# 	do echo $i;
+# 	mv $i 
+# 	done
+# }
 
-alias cloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/"
+#alias cloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/"
 
 alias ao="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/LaTeX*"
 
