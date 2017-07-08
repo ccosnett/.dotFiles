@@ -1,0 +1,19 @@
+- it takes 17 hours to generate a single data point on my imac using Tensorflow.
+- it was harder than i thought
+- the random number-generator didn't work
+- I have been trying to rent a cloud computer of jeff bezos for 70 cents an hour.
+
+- Struggling to set up tensor flow on the cloud computer
+- I found a nature paper.
+
+
+
+40 82 percent accuracy. but the more planets the higher the accuracy.
+the better the training.
+
+
+I'm a bit embarassed
+- when is this internship over?
+
+
+- my mac doesn't work as the graphics card cannot communicate with tensor flow

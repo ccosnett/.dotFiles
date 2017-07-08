@@ -13,10 +13,16 @@ export ZSH=~/.oh-my-zsh;
 #  git clone https://github.com/JohnCosnett/.dotFiles.git
 
 
+alias t-start='sudo service transmission-daemon start'
+alias t-stop='sudo service transmission-daemon stop'
+alias t-reload='sudo service transmission-daemon reload'
+alias t-list='transmission-remote -n 'transmission:transmission' -l'
+alias t-basicstats='transmission-remote -n 'transmission:transmission' -st'
+alias t-fullstats='transmission-remote -n 'transmission:transmission' -si'
 
 amaz()
 {
-    num=ec2-34-253-71-194.eu-west-1.compute.amazonaws.com
+    num=ec2-52-48-244-110.eu-west-1.compute.amazonaws.com
     HO_DIR=~/.dotFiles/aws_keys/compute.pem;
     chmod 400 ${HO_DIR};
     ssh -i "${HO_DIR}" ubuntu@${num}
@@ -37,14 +43,14 @@ amaz()
 
 
 #chq
-#source ~/.dotFiles/pexers/pexer.sh;
-#source ~/.dotFiles/permission_denied.sh;
+source ~/.dotFiles/pexers/pexer.sh; 
+source ~/.dotFiles/permission_denied.sh;
 
 alias testAlias="echo testing testicles"
 
 
-#source  ~/.dotFiles/s1.sh;
-#source  ~/.dotFiles/s2.sh;
+source  ~/.dotFiles/s1.sh;
+source  ~/.dotFiles/s2.sh;
 
 
 
