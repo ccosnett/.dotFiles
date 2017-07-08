@@ -89,6 +89,7 @@ alias pre="open -a preview $1"
 alias dadir="cd /tmp/flowers-data/"
 #______________________________________________________________________
 
+alias money="cd ~/.dotFiles/money"
 alias pymes="cd ~/cube*/pymes"
 alias paper2="cd /Users/johncosnett/Desktop/demo/paper2"
 alias dot="cd ~/.dotFiles/"
