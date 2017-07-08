@@ -40,7 +40,7 @@ pip install tensorflow-gpu
 
 
 pause "test tensor flow"
-python /home/conorcosnett/.dotFiles/short_tensor_flow_program.py
+python ~/.dotFiles/short_tensor_flow_program.py
 
 
 #pause '___________--download quantum'
@@ -69,7 +69,7 @@ sudo apt-get upgrade bazel
 
 
 pause "test tensor flow again....."
-python /home/conorcosnett/.dotFiles/short_tensor_flow_program.py
+python ~/.dotFiles/short_tensor_flow_program.py
 
 
 

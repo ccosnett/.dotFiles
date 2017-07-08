@@ -149,11 +149,11 @@ sudo rm .zshrc*
 
 
 pause '___________--  -3       create symlink from .dotFilesss'
-ln -s /home/conorcosnett/.dotFiles/.zshrc /home/conorcosnett/.zshrc
+ln -s ~/.dotFiles/.zshrc ~/.zshrc
 
 
 pause '___________--  -3       restart zshrc'
-. /home/conorcosnett/.zshrc;
+. ~/.zshrc;
 sudo reboot;
 
 
@@ -174,7 +174,7 @@ sudo reboot;
 #sudo apt-get install xz-utils;
 
 #pause '___________--1.3       EMACS 24'
-#cd /home/conorcosnett/.dotFiles;
+#cd ~/.dotFiles;
 
 #pause '___________--1.4       EMACS 24'
 #tar -xf emacs-25.2.tar.xz;
@@ -183,7 +183,7 @@ sudo reboot;
 #ls;
 
 #pause '___________--1.6       EMACS 24'
-#cd /home/conorcosnett/.dotFiles/emacs-25.2;
+#cd ~/.dotFiles/emacs-25.2;
 
 #pause '___________--1.7       EMACS 24'
 #./configure;

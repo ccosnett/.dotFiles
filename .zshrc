@@ -22,7 +22,7 @@ alias t-fullstats='transmission-remote -n 'transmission:transmission' -si'
 
 amaz()
 {
-    num=ec2-52-48-244-110.eu-west-1.compute.amazonaws.com
+    num=ec2-34-248-255-180.eu-west-1.compute.amazonaws.com
     HO_DIR=~/.dotFiles/aws_keys/compute.pem;
     chmod 400 ${HO_DIR};
     ssh -i "${HO_DIR}" ubuntu@${num}
