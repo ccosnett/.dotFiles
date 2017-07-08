@@ -1,0 +1,13 @@
+Deep learning algorithms, powered by advances in computation and very large datasets25, have recently been shown to exceed human performance in visual tasks such as playing Atari games26, strategic board games like Go27 and object recognition6.
+
+
+Automated detection of exoplanets in noisy coronagraph videos is a challenging task. Deep convolutional neural networks (CNNs)4,5 show potential for general and highly variable tasks, across many fine-grained object categories 6–11.
+
+ We hope to demonstrate detection of exoplanets using CNNs, trained end-to-end from video directly, using only pixels and labels (’exoplanet’ or ’barren’) as inputs. We have trained a small proof of concept model using a dataset of 40 videos containing exoplanets and 40 videos with no exoplanets (“barren”). The coronagraph speckles were randomly generated and are different in each video. The radius of the planets motion is also random so that the planets position could be al- most anywhere in the video.
+1 Section
+Deep learning algorithms, powered by advances in com- putation and very large datasets25, have recently been shown to exceed human performance in visual tasks such as playing Atari games26, strategic board games like Go27 and object recognition6.
+We utilize a GoogleNet Inception v3 CNN architec- ture9 that was pre- trained on approximately 1.28 mil- lion images (1,000 object categories) from the 2014 ImageNet Large Scale Visual Recognition Challenge6, and train it on our dataset using transfer learning28. Figure 1 shows the working system. The CNN is trained using 2 object classes. Our dataset is composed of computer-labelled videos,
+During inference, the CNN outputs a probability distribution over these two classes.
+
+
+

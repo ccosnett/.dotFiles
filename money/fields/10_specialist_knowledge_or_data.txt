@@ -1,0 +1,82 @@
+(((((((((((((((((((((((((((((((((()))))))))))))))))))))))))))))))))))
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+SPECIALIST KNOWLEDGE
+SPECIALIST DATA
+	   REQUIRED TO UNDERTAKE YOUR PROPOSED RESEARCH
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+(((((((((((((((((((((((((((((((((()))))))))))))))))))))))))))))))))))
+
+
+
+
+
+
+(((((((((((((((((((((((((((((((((()))))))))))))))))))))))))))))))))))
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+LANGUAGE COMPETANCY
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+(((((((((((((((((((((((((((((((((()))))))))))))))))))))))))))))))))))
+
+as previously stated in section X above I have achieved competancy in the following computer languages
+
+
+-Mathematica 6000 hours
+-Python      3000 hours
+-MATLAB      2000 hours
+-
+-
+-
+-
+-
+-C
+
+(((((((((((((((((((((((((((((((((()))))))))))))))))))))))))))))))))))
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+TECHNICAL SKILLS
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+(((((((((((((((((((((((((((((((((()))))))))))))))))))))))))))))))))))
+
+
+SUCCESSLY CARRIED OUT MANY PHYSICS EXPERIMENTS. I got 100 percent in all lab work in 3rd year as well as that I got 100 percent in both lab interviews in which I was grilled on two random experiments that I did.
+
+I graphed and recorded data in PDF's generated in mathematica.
+
+I enjoyed sketching diagrams of experimental apparatus.
+
+My skillset from these labs includes
+-Arduino programming
+-Calculating and computing with scientific error.
+-Using the OCTAVE Computer language to explore signal analysis.
+-Modelling nonlinear optics systems using the OSLO optics prototyping software.
+
+
+
+
+
+
+(((((((((((((((((((((((((((((((((()))))))))))))))))))))))))))))))))))
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+SPECIALIST SOFTWARE
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+(((((((((((((((((((((((((((((((((()))))))))))))))))))))))))))))))))))
+
+I am an expert in the mathematica system having over 6000 hours of experience writing small Mathematica Programs.
+
+I have libraries of mathematica packages on GITHUB...
+
+
+Mathematica allows the scientist to visualise and explore data.
+To do  technical things
+techical.

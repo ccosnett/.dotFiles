@@ -1,0 +1,24 @@
+Max 500 words
+
+Please provide any additional information regarding your research achievements to date such as publications, 
+research awards, 
+creation of data sets and databases, 
+conference papers, 
+patents, 
+excavations, public broadcasts, stage performances, creative writing, creative productions and/or exhibitions:
+
+Max 500 words
+
+
+created several software repositories on Github to help myself and others simulate coronagraph images of exoplanets rotating in speckle fields.
+
+created a 2 data sets for training the Inception V3 convolutional neural network for the purpose of detecting exoplanets.
+
+Maintainer of several code repositories for machine learning and other stuff in Mathematica 11 on github
+
+
+
+
+Mainly in the Wolfram Language (Mathematica Language).
+Insert CV
+

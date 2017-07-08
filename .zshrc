@@ -16,7 +16,7 @@ export ZSH=~/.oh-my-zsh;
 
 amaz()
 {
-    num=ec2-34-248-0-144.eu-west-1.compute.amazonaws.com
+    num=ec2-34-253-71-194.eu-west-1.compute.amazonaws.com
     HO_DIR=~/.dotFiles/aws_keys/compute.pem;
     chmod 400 ${HO_DIR};
     ssh -i "${HO_DIR}" ubuntu@${num}
@@ -82,7 +82,7 @@ alias testAlias="echo testing testicles"
 
 
 #_____________________________SYSTEM__________________________-
-
+alias count="find . -type f | wc -l"
 alias qu="cd ~/Documents/latex_/quantum_2017"
 alias de="cd /Users/johncosnett/Desktop"
 alias pre="open -a preview $1"

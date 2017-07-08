@@ -1,0 +1,1 @@
+/usr/bin/ssh -i ~/.dotFiles/aws_keys/compute.pem ubuntu@ec2-52-31-13-18.eu-west-1.compute.amazonaws.com wolfram -wstp -LinkMode Connect -LinkProtocal TCPIP -LinkName "`linkname`" -LinkHost `ipaddress`
