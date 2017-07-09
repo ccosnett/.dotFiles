@@ -1,4 +1,4 @@
-#   git clone https://github.com/JohnCosnett/.dotFiles.git
+ #   git clone https://github.com/JohnCosnett/.dotFiles.git
 # git clone https://github.com/JohnCosnett/pymes.git
 
 #i-0bef940e347fcbedb: ec2-52-215-69-201.eu-west-1.compute.amazonaws.com
@@ -581,3 +581,9 @@ export PATH="$HOME/.bin:$PATH"
 
 
 
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/johncosnett/Documents/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/johncosnett/Documents/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/johncosnett/Documents/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/johncosnett/Documents/google-cloud-sdk/completion.zsh.inc'; fi

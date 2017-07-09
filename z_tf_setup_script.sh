@@ -12,8 +12,8 @@ function pause(){
 
 
 #####emacs24####
-pause "setting passwd ubuntu"
-sudo passwd ubuntu 
+pause "setting passwd conorcosnett"
+sudo passwd conorcosnett 
 
 #sudo rm -r /etc/sudoers.d/90-cloud-init-users
 
