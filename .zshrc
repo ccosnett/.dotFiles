@@ -88,9 +88,13 @@ amaz()
 
 
 #_____________________________SYSTEM__________________________-
+
+alias ma="open -a safari http://tilda.univ-lille1.fr/wp-content/uploads/2012/08/tex-ref.pdf"
 alias lc="clc"
 alias down="~/Downloads"
 alias de="~/Desktop"
+alias mai="open -a safari \"https://outlook.office.com/owa/?realm=nuigalway.ie&exsvurl=1&ll-cc=1033&modurl=0\""
+alias fa="open -a safari https://www.facebook.com/messages/"
 alias mux="open -a safari http://www.dayid.org/comp/tm.html"
 alias count="find . -type f | wc -l"
 alias qu="cd ~/Documents/latex_/quantum_2017"
@@ -135,6 +139,7 @@ alias yyb="yb ba288.i"
 ##_____________________________ZSH__________________________-
 # testing this mdamnmmxm contraptionnnnn
 
+alias zz="/Users/johncosnett/Documents/Wolfram Mathematica/face/Zscripts"
 lrrr()
 {
     sudo  rm -r ~/.dotFiles/;
