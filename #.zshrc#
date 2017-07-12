@@ -43,14 +43,14 @@ amaz()
 
 
 #chq
-# source ~/.dotFiles/pexers/pexer.sh; 
-# source ~/.dotFiles/permission_denied.sh;
+source ~/.dotFiles/pexers/pexer.sh; 
+source ~/.dotFiles/permission_denied.sh;
 
-# alias testAlias="echo testing testicles"
+alias testAlias="echo testing testicles"
 
 
-# source  ~/.dotFiles/tmuxer.sh;
-# source  ~/.dotFiles/s2.sh;
+source  ~/.dotFiles/s1.sh;
+source  ~/.dotFiles/s2.sh;
 
 
 
@@ -88,10 +88,6 @@ amaz()
 
 
 #_____________________________SYSTEM__________________________-
-alias lc="clc"
-alias down="~/Downloads"
-alias de="~/Desktop"
-alias mux="open -a safari http://www.dayid.org/comp/tm.html"
 alias count="find . -type f | wc -l"
 alias qu="cd ~/Documents/latex_/quantum_2017"
 alias de="cd /Users/johncosnett/Desktop"
@@ -104,7 +100,7 @@ alias pymes="cd ~/cube*/pymes"
 alias paper2="cd /Users/johncosnett/Desktop/demo/paper2"
 alias dot="cd ~/.dotFiles/"
 alias prof="cd ~/Desktop/prof"
-alias clu="rm *~; rm *fits;rm *#*; chmod 777 *"
+alias clu="rm *~; rm *fits;rm *#*"
 #_____________________________YORICK__________________________-
 
 alias yb="/Users/johncosnett/yoricksPackages/04_Yorick/relocate/bin/yorick -batch";
@@ -223,7 +219,6 @@ gitin()
 
 
 #_____________________________MATHEMATCA__________________________-
-
 
 
 alias mmaSetup="cd /Applications/Mathematica.app/Contents/SystemFiles/FrontEnd/

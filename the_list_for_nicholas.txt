@@ -1,3 +1,7 @@
+- Last time I showed you a graph that was too good to be through.
+- I discovered to my embarassment that the random number generator kept on resetting everytime I made a new Yorick instance.
+- I thought I could fix it and redo the graph quickly. But it took me like a week.
+- 
 - it takes 17 hours to generate a single data point on my imac using Tensorflow.
 - it was harder than i thought
 - the random number-generator didn't work

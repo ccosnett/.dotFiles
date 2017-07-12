@@ -1,58 +1,53 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.25)  9 JUL 2017 16:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.3)  12 JUL 2017 01:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **\input dad1.tex
 (./dad1.tex
-(/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrartcl.cls
-Document Class: scrartcl 2016/05/10 v3.20 KOMA-Script document class (article)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2016/05/10 v3.20 KOMA-Script package (KOMA-Script-dependent b
+(/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2017/04/13 v3.23 KOMA-Script document class (article)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2016/05/10 v3.20 KOMA-Script package (KOMA-Script-independent 
+(/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2016/05/10 v3.20 KOMA-Script package (loading files)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2017/04/13 v3.23 KOMA-Script package (loading files)
 
-Package scrlfile, 2016/05/10 v3.20 KOMA-Script package (loading files)
+Package scrlfile, 2017/04/13 v3.23 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
-))) (/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2016/05/10 v3.20 KOMA-Script package (handling toc-files)
+))) (/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2017/04/13 v3.23 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip41
 \scr@dte@tocline@numbox=\box26
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `toc' on input line 130.
+(tocbasic)             for `toc' on input line 131.
 Package tocbasic Info: omitting babel extension for `lof'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lof' on input line 131.
+(tocbasic)             for `lof' on input line 133.
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lot' on input line 132.
+(tocbasic)             for `lot' on input line 134.
 Class scrartcl Info: File `scrsize11pt.clo' used to setup font sizes on input l
-ine 2051.
+ine 2059.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2016/05/10 v3.20 KOMA-Script font size class option (11pt
+(/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2017/04/13 v3.23 KOMA-Script font size class option (11pt
 )
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2016/05/10 v3.20 KOMA-Script package (type area)
-
-Package typearea, 2016/05/10 v3.20 KOMA-Script package (type area)
-                  Copyright (C) Frank Neukam, 1992-1994
-                  Copyright (C) Markus Kohm, 1994-
-
+(/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2017/04/13 v3.23 KOMA-Script package (type area)
 \ta@bcor=\skip42
 \ta@div=\count79
 \ta@hblk=\skip43
@@ -75,7 +70,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 11.0pt
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 1528.
+(typearea)              on input line 1647.
 )
 \c@part=\count80
 \c@section=\count81
@@ -89,33 +84,34 @@ Package typearea Info: These are the values describing the layout:
 \scr@dte@subsubsection@maxnumwidth=\skip50
 \scr@dte@paragraph@maxnumwidth=\skip51
 \scr@dte@subparagraph@maxnumwidth=\skip52
-LaTeX Info: Redefining \textsubscript on input line 4025.
+LaTeX Info: Redefining \textsubscript on input line 4094.
 \abovecaptionskip=\skip53
 \belowcaptionskip=\skip54
 \c@pti@nb@sid@b@x=\box27
 \c@figure=\count86
 \c@table=\count87
-Class scrartcl Info: Redefining `\numberline' on input line 5012.
+Class scrartcl Info: Redefining `\numberline' on input line 5233.
 \bibindent=\dimen102
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/fourier.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/fourier.sty
 Package: fourier 2005/01/01 1.4 fourier-GUTenberg package
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
 (textcomp)               4 = 5 + \texteuro
@@ -129,7 +125,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 334.
@@ -196,7 +192,7 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/fourier-orns.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/fourier-orns.sty
 Package: fourier-orns 2004/01/30 1.1 fourier-ornaments package
 )
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 50.
@@ -295,14 +291,14 @@ LaTeX Font Info:    Redeclaring math accent \dot on input line 255.
 LaTeX Font Info:    Redeclaring math accent \mathring on input line 256.
 \symUfutm=\mathgroup5
 )
-(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2016/04/23 3.9r The Babel package
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2017/05/19 3.10 The Babel package
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2012/08/20 v3.3p English support from the babel system
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/01/24 v3.3q English support from the babel system
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2016/04/23 3.9r Babel common definitions
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2017/05/19 3.10 Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
@@ -310,41 +306,41 @@ File: babel.def 2016/04/23 3.9r Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/03/10 v2.15b AMS math features
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip55
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks15
 \ex@=\dimen104
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen105
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count89
-LaTeX Info: Redefining \frac on input line 199.
+LaTeX Info: Redefining \frac on input line 213.
 \uproot@=\count90
 \leftroot@=\count91
-LaTeX Info: Redefining \overline on input line 297.
+LaTeX Info: Redefining \overline on input line 375.
 \classnum@=\count92
 \DOTSCASE@=\count93
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box28
 \strutbox@=\box29
 \big@size=\dimen106
-LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count94
 \c@MaxMatrixCols=\count95
 \dotsspace@=\muskip10
@@ -365,10 +361,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \multlinegap=\skip56
 \multlinetaggap=\skip57
 \mathdisplay@stack=\toks19
-LaTeX Info: Redefining \[ on input line 2739.
-LaTeX Info: Redefining \] on input line 2740.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup6
 \symAMSb=\mathgroup7
@@ -376,7 +372,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 LaTeX Font Info:    Redeclaring math symbol \square on input line 141.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amscls/amsthm.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2015/03/04 v2.20.2
 \thm@style=\toks20
 \thm@bodyfont=\toks21
@@ -388,11 +384,11 @@ Package: amsthm 2015/03/04 v2.20.2
 \thm@headsep=\skip60
 \dth@everypar=\toks25
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count101
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/sectsty/sectsty.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 )
@@ -402,9 +398,10 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              I'd suggest to use 
 (scrartcl)              package `scrlayer-scrpage'.
 (scrartcl)              Nevertheless, using requested
-(scrartcl)              package `fancyhdr' on input line 34.
+(scrartcl)              package `fancyhdr' on input line 35.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \fancy@headwidth=\skip61
 \f@ncyO@elh=\skip62
 \f@ncyO@erh=\skip63
@@ -418,90 +415,122 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (./dad1.aux)
 \openout1 = `dad1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 57.
-LaTeX Font Info:    Try loading font information for FML+futm on input line 57.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 58.
+LaTeX Font Info:    Try loading font information for FML+futm on input line 58.
 
- (/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/fmlfutm.fd
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 57.
-LaTeX Font Info:    Try loading font information for FMS+futm on input line 57.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 58.
+LaTeX Font Info:    Try loading font information for FMS+futm on input line 58.
 
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/fmsfutm.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 57.
-LaTeX Font Info:    Try loading font information for FMX+futm on input line 57.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 58.
+LaTeX Font Info:    Try loading font information for FMX+futm on input line 58.
 
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/fmxfutm.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 57.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 58.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Try loading font information for T1+futs on input line 57.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Try loading font information for T1+futs on input line 58.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/t1futs.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/t1futs.fd
 File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
 )
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 61.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 62.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmss.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Overfull \hbox (2.80391pt too wide) in paragraph at lines 62--63
+Overfull \hbox (2.80391pt too wide) in paragraph at lines 63--64
 \T1/futs/m/it/10.95 Please pro-vide any ad-di-tional in-for-ma-tion rel-e-vant 
 to your aca-demic back-ground which should
  []
 
-LaTeX Font Info:    Try loading font information for TS1+futs on input line 84.
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 85.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fourier/ts1futs.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
 )
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 84.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 85.
  [1
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./
-dad1.aux) ) 
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for FML+futmi on input line 12
+1.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/fmlfutmi.fd
+File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
+)
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 121.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 121.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 121.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 121.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 121.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 121.
+LaTeX Font Info:    Try loading font information for U+msa on input line 121.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 121.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+
+ []
+
+[4] (./dad1.aux) ) 
 Here is how much of TeX's memory you used:
- 4582 strings out of 493014
- 70672 string characters out of 6133351
- 311041 words of memory out of 5000000
- 8073 multiletter control sequences out of 15000+600000
- 45145 words of font info for 43 fonts, out of 8000000 for 9000
+ 4768 strings out of 492995
+ 74535 string characters out of 6132705
+ 320248 words of memory out of 5000000
+ 8251 multiletter control sequences out of 15000+600000
+ 63749 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,51p,8490b,252s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
-r/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on dad1.pdf (2 pages, 51665 bytes).
+ 41i,11n,51p,8822b,262s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.e
+nc}</usr/local/texlive/2017/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local
+/texlive/2017/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on dad1.pdf (4 pages, 56277 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 30 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

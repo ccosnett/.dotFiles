@@ -5,10 +5,6 @@ pexer()
 }
 
 
-
-
-
-
 #echo "...\n\n\nyou have run the program: pexer\n\n\n..."
 
 #      'tell application "iTerm" to activate'
@@ -43,8 +39,8 @@ tab()
 
 };
 
-iTermExecute "cd ~/.dotFiles/pexers;sl";
-pexer;
+# iTermExecute "cd ~/.dotFiles/pexers;sl";
+# pexer;
 
 
 
