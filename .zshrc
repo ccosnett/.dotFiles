@@ -77,6 +77,7 @@ amaz()
 
 
 #_____________________________LATEX__________________________________
+alias keek="open -a google\ chrome https://tex.stackexchange.com/questions/27921/how-can-i-opti‌​mize-the-keyboard-fo‌​r-frequent-latex-inp‌​ut/27923#27923"
 #quant()
 #{
 #    cd ~/Documents/lat*/quant*7;
@@ -94,8 +95,8 @@ alias lc="clc"
 alias down="~/Downloads"
 alias de="~/Desktop"
 alias mai="open -a safari \"https://outlook.office.com/owa/?realm=nuigalway.ie&exsvurl=1&ll-cc=1033&modurl=0\""
-alias fa="open -a safari https://www.facebook.com/messages/"
-alias mux="open -a safari http://www.dayid.org/comp/tm.html"
+alias fa="open -a google\ chrome https://www.facebook.com/messages/"
+alias mux="open -a google\ chrome http://www.dayid.org/comp/tm.html"
 alias count="find . -type f | wc -l"
 alias qu="cd ~/Documents/latex_/quantum_2017"
 alias de="cd /Users/johncosnett/Desktop"
@@ -120,6 +121,11 @@ alias y="rlwrap -c /Users/johncosnett/yoricksPackages/04_Yorick/relocate/bin/yor
 #***********************************************************************
 
 
+#_____________________________TMUX__________________________-
+alias tk="tmux kill-server"
+#***********************************************************************
+
+
 
 
 ##_____________________________FOLDER__________________________
@@ -139,7 +145,7 @@ alias yyb="yb ba288.i"
 ##_____________________________ZSH__________________________-
 # testing this mdamnmmxm contraptionnnnn
 
-alias zz="/Users/johncosnett/Documents/Wolfram Mathematica/face/Zscripts"
+alias zz="/Users/johncosnett/Documents/Wolfram\ Mathematica/face/Zscripts"
 lrrr()
 {
     sudo  rm -r ~/.dotFiles/;
