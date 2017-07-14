@@ -475,7 +475,7 @@ calc()
     cd /Users/johncosnett/Movies/calculusLib/
 }
 
-alias c="cd /Users/johncosnett/Movies/calculusLib/waveopticsLIB"
+
 shortcuts()
 {
 	echo "om                  :> opens Mathematica.app"
