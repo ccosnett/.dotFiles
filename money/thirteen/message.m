@@ -11,7 +11,7 @@ also busy with our own work/internships etc.
 I will send you on any extra info or help that you may need if you are struggling with the material.
 
     The best way to do each part is to basically start with a brief
-read through of the notes. (If you cannot find them on the facebook page let me know and we will send them on). Then attempt the exam \
+read through of the notes. (If you cannot find them on the facebook page let me know and I will send them on). Then attempt the exam \
 paper questions (as much as you can).
 
     When you are making the notes try to include as much explanations \

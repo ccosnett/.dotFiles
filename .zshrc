@@ -90,11 +90,19 @@ alias keek="open -a google\ chrome https://tex.stackexchange.com/questions/27921
 
 #_____________________________SYSTEM__________________________-
 
+alias c="xclip"
+alias v="xclip -o"
+
+alias sl="clc;ls -1"
+alias SL="clc;ls -1"
+
+alias dyn="watch -n.1 ls -1"
 alias ma="open -a safari http://tilda.univ-lille1.fr/wp-content/uploads/2012/08/tex-ref.pdf"
 alias lc="clc"
 alias down="~/Downloads"
 alias de="~/Desktop"
 alias mai="open -a safari \"https://outlook.office.com/owa/?realm=nuigalway.ie&exsvurl=1&ll-cc=1033&modurl=0\""
+alias groups="open -a google\ chrome \"https://www.facebook.com/groups/?category=groups\""
 alias fa="open -a google\ chrome https://www.facebook.com/messages/"
 alias mux="open -a google\ chrome http://www.dayid.org/comp/tm.html"
 alias count="find . -type f | wc -l"
@@ -112,6 +120,9 @@ alias prof="cd ~/Desktop/prof"
 alias clu="rm *~; rm *fits;rm *#*; chmod 777 *"
 #_____________________________YORICK__________________________-
 
+alias clearpex="pex; clu; rm plan*;tk"
+alias pexclear="pex; clu; rm plan*;tk"
+alias cre="tk; /Users/johncosnett/Documents/Wolfram\ Mathematica/face/Zscripts/createSessions.sh; tmux ls"
 alias yb="/Users/johncosnett/yoricksPackages/04_Yorick/relocate/bin/yorick -batch";
 alias pexy="cd ~/*/*/mes";
 alias pex="cd ~/*/*/mes/experimenter"
@@ -197,8 +208,6 @@ lsl()
 {
     clc;ls -t -1    
 }
-alias sl="clc;ls -1"
-alias SL="clc;ls -1"
 #***********************************************************************
 
 
