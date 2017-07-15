@@ -89,6 +89,8 @@ alias keek="open -a google\ chrome https://tex.stackexchange.com/questions/27921
 
 
 #_____________________________SYSTEM__________________________-
+alias b1="brightness 1"
+alias b0="brightness 0"
 alias pwdc="pwd | pbcopy"
 alias c="pbcopy"
 alias v="pbpaste -o"
