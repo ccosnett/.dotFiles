@@ -1,0 +1,11 @@
+Dear Sir/Madam,
+
+I am a student looking for a computer to train Deep Neural Networks.
+My computer's only requirement is it needs to have at least 4 Nvidia Titan X GPU's.
+
+I have found several example builds online.
+Here:
+
+
+Please could you provide me with a quote.
+

@@ -1,0 +1,26 @@
+\documentclass[landscape, 11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[textwidth=25cm]{geometry}
+\usepackage{array, booktabs, multirow}
+
+\begin{document}
+\begin{table}
+    \begin{tabular}{lllrrrr} \toprule
+        \parbox[t]{3cm}{\textbf{part type}}
+      & \parbox[t]{2.5cm}{\textbf{part name}}%
+      & \parbox[t]{.5cm}{\textbf{specs}}
+      &\textbf{quantity}
+      & \textbf{    website}
+      & \parbox[t]{1.2cm}{\textbf{total cost  £}} \\ \midrule
+    GPU                                           & Nvidia Titan X                       & 11 TFLOPS        & 4        & Nvidia    & \multirow{1}{*}{3668}        \\ \midrule\\
+    Case                                          & Rosewill Thor                        & ~                & 1        & Newegg    & \multirow{1}{*}{100}        \\ \midrule\\
+    CPU                                           & Intel Core i7-5820K                  & 3.3GHz           & 1        & amazon.uk & \multirow{1}{*}{308}        \\ \midrule\\
+      Power Supply                                & Rosewill Hercules                    & 1600W            & 1        & Newegg    & \multirow{1}{*}{500}        \\ \midrule\\
+    RAM                                           & G.SKILL Ripjaws 4 Series 32GB        & 32GB             & 4        & amazon.uk & \multirow{1}{*}{363}        \\ \midrule\\
+    SSD                                           & Mushkin Enhanced Reactor 2.5" 1TB    & 1TB              & 1        & amazon.uk & \multirow{1}{*}{325}        \\ \midrule\\
+    Motherboard                                   & GIGABYTE GA-X99-UD3P                 & slots for 4 GPUS & 1        & amazon.uk & \multirow{1}{*}{143}           \\ \bottomrule
+    \end{tabular}
+  \end{table}
+
+  \textbf{  total cost  =  £5407}
+\end{document}

@@ -77,7 +77,11 @@ amaz()
 
 
 #_____________________________LATEX__________________________________
+
+alias comp="cd /Users/johncosnett/.dotFiles/money/computer"
+
 alias keek="open -a google\ chrome https://tex.stackexchange.com/questions/27921/how-can-i-opti‌​mize-the-keyboard-fo‌​r-frequent-latex-inp‌​ut/27923#27923"
+
 #quant()
 #{
 #    cd ~/Documents/lat*/quant*7;
