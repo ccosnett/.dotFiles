@@ -211,6 +211,15 @@ rl()
     git push https://github.com/JohnCosnett/.dotFiles.git master;
     echo "there and back again";
      - ;
+     . ~/.zshrc;
+    cd ~/.emacs.d;
+    git pull https://github.com/JohnCosnett/.emacs.d.git master;
+    git add .;
+    git commit -m "hn";
+    echo "here";
+    git push https://github.com/JohnCosnett/.emacs.d.git master;
+    echo "dot nd aug";
+     - ;
     . ~/.zshrc;
 }
 
@@ -276,6 +285,10 @@ alias mm="/Applications/Mathematica.app/Contents/MacOS/WolframKernel"
 
 #_____________________________EMACS___________________________________-
 
+aug()
+{
+    cd ~/.emacs.d/
+}
 
 au()
 {
