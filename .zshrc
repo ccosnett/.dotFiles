@@ -173,14 +173,16 @@ alias zz="/Users/johncosnett/Documents/Wolfram\ Mathematica/face/Zscripts"
 lrrr()
 {
     sudo  rm -r ~/.dotFiles/;
+    sudo  rm -r ~/.emacs.d; 
     cd ~;
     git clone https://github.com/JohnCosnett/.dotFiles.git;
+    git clone https://github.com/JohnCosnett/.emacs.d.git;
     cd  ~/.dotFiles;
     pwd;
 #    git fetch https://github.com/JohnCosnett/.dotFiles.git;
     . ~/.zshrc;
   #  clc; 
-    echo "destroying .zshrc and reloading from the cloudss";
+    echo "destroying .dotFiles/ and .emacs.d/ reloading from the cloudss";
  }
 alias ez="au ~/.dotFiles/.zshrc"
 
