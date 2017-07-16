@@ -6,6 +6,13 @@
 export ZSH=~/.oh-my-zsh;
 
 
+#_____________________________WEB_LINKS______________________________
+
+alias greek="open -a google\ chrome \"http://www.omniglot.com/images/writing/greek_ltr.gif\""
+
+
+#_________________________________________________________________________
+
 
 
 
@@ -112,7 +119,7 @@ alias groups="open -a google\ chrome \"https://www.facebook.com/groups/?category
 alias fa="open -a google\ chrome https://www.facebook.com/messages/"
 alias mux="open -a google\ chrome http://www.dayid.org/comp/tm.html"
 alias count="find . -type f | wc -l"
-alias qu="cd ~/Documents/latex_/quantum_2017"
+alias qu="cd ~/Documents/latex_/quantum_2017/four*"
 alias de="cd /Users/johncosnett/Desktop"
 alias pre="open -a preview $1"
 alias dadir="cd /tmp/flowers-data/"
