@@ -100,6 +100,12 @@ alias keek="open -a google\ chrome https://tex.stackexchange.com/questions/27921
 
 
 #_____________________________SYSTEM__________________________-
+
+alias v25="sudo osascript -e \"set Volume 25\""
+alias v50="sudo osascript -e \"set Volume 50\""
+alias v0="sudo osascript -e \"set Volume 0\""
+alias v75="sudo osascript -e \"set Volume 75\""
+alias v1="sudo osascript -e \"set Volume 100\""
 alias b1="brightness 1"
 alias b0="brightness 0"
 alias pwdc="pwd | pbcopy"
