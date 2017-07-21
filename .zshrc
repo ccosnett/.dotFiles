@@ -1,4 +1,4 @@
- #   git clone https://github.com/JohnCosnett/.dotFiles.git
+#   git clone https://github.com/JohnCosnett/.dotFiles.git
 # git clone https://github.com/JohnCosnett/pymes.git
 
 #i-0bef940e347fcbedb: ec2-52-215-69-201.eu-west-1.compute.amazonaws.com
@@ -9,7 +9,8 @@ export ZSH=~/.oh-my-zsh;
 #_____________________________WEB_LINKS______________________________
 
 alias greek="open -a google\ chrome \"http://www.omniglot.com/images/writing/greek_ltr.gif\""
-
+alias pj="open -a google\ chrome \"Hardware Guide- Neural Networks on GPUs (Updated 2016-1-30).webloc\""
+alias gma="open -a google\ chrome \"https://mail.google.com/mail/u/0/#inbox\""
 
 #_________________________________________________________________________
 
@@ -99,8 +100,9 @@ alias keek="open -a google\ chrome https://tex.stackexchange.com/questions/27921
 
 
 
-#_____________________________SYSTEM__________________________-
+#_____________________________SYSTEM__________________________bk4asKcV
 
+alias v3="sudo osascript -e \"set Volume 3\""
 alias v25="sudo osascript -e \"set Volume 25\""
 alias v50="sudo osascript -e \"set Volume 50\""
 alias v0="sudo osascript -e \"set Volume 0\""
@@ -123,6 +125,8 @@ alias de="~/Desktop"
 alias mai="open -a safari \"https://outlook.office.com/owa/?realm=nuigalway.ie&exsvurl=1&ll-cc=1033&modurl=0\""
 alias groups="open -a google\ chrome \"https://www.facebook.com/groups/?category=groups\""
 alias fa="open -a google\ chrome https://www.facebook.com/messages/"
+alias gmai="open -a google\ chrome \"https://mail.google.com/mail/u/0/#inbox\""
+alias liin="open -a google\ chrome \"https://www.linkedin.com/feed/\""
 alias mux="open -a google\ chrome http://www.dayid.org/comp/tm.html"
 alias count="find . -type f | wc -l"
 alias qu="cd ~/Documents/latex_/quantum_2017/four*"
