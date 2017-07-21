@@ -4,7 +4,7 @@
 #i-0bef940e347fcbedb: ec2-52-215-69-201.eu-west-1.compute.amazonaws.com
 #i-03633a6f87d8a3147:
 export ZSH=~/.oh-my-zsh;
-
+#sxmbRtbtcnz6  
 
 #_____________________________WEB_LINKS______________________________
 
