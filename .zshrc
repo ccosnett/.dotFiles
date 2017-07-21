@@ -8,7 +8,8 @@ export ZSH=~/.oh-my-zsh;
 
 #_____________________________WEB_LINKS______________________________
 
-alias mai="open -a safari \"https://outlook.office.com/owa/?realm=nuigalway.ie&exsvurl=1&ll-cc=1033&modurl=0\""
+alias gcloud="open -a google\ chrome \"https://console.cloud.google.com/compute/instances?project=conors-project\""
+alias mai="open -a google\ chrome \"https://outlook.office.com/owa/?realm=nuigalway.ie&exsvurl=1&ll-cc=1033&modurl=0\""
 alias groups="open -a google\ chrome \"https://www.facebook.com/groups/?category=groups\""
 alias fa="open -a google\ chrome https://www.facebook.com/messages/"
 alias gmai="open -a google\ chrome \"https://mail.google.com/mail/u/0/#inbox\""
