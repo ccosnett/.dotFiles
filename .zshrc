@@ -8,6 +8,16 @@ export ZSH=~/.oh-my-zsh;
 
 #_____________________________WEB_LINKS______________________________
 
+alias mai="open -a safari \"https://outlook.office.com/owa/?realm=nuigalway.ie&exsvurl=1&ll-cc=1033&modurl=0\""
+alias groups="open -a google\ chrome \"https://www.facebook.com/groups/?category=groups\""
+alias fa="open -a google\ chrome https://www.facebook.com/messages/"
+alias gmai="open -a google\ chrome \"https://mail.google.com/mail/u/0/#inbox\""
+alias liin="open -a google\ chrome \"https://www.linkedin.com/feed/\""
+alias mux="open -a google\ chrome http://www.dayid.org/comp/tm.html"
+
+alias dyn="watch -n.1 ls -1"
+alias ma="open -a safari http://tilda.univ-lille1.fr/wp-content/uploads/2012/08/tex-ref.pdf"
+
 alias greek="open -a google\ chrome \"http://www.omniglot.com/images/writing/greek_ltr.gif\""
 alias pj="open -a google\ chrome \"Hardware Guide- Neural Networks on GPUs (Updated 2016-1-30).webloc\""
 alias gma="open -a google\ chrome \"https://mail.google.com/mail/u/0/#inbox\""
@@ -117,17 +127,9 @@ alias v="pbpaste -o"
 alias sl="clc;ls -1"
 alias SL="clc;ls -1"
 
-alias dyn="watch -n.1 ls -1"
-alias ma="open -a safari http://tilda.univ-lille1.fr/wp-content/uploads/2012/08/tex-ref.pdf"
 alias lc="clc"
 alias down="~/Downloads"
 alias de="~/Desktop"
-alias mai="open -a safari \"https://outlook.office.com/owa/?realm=nuigalway.ie&exsvurl=1&ll-cc=1033&modurl=0\""
-alias groups="open -a google\ chrome \"https://www.facebook.com/groups/?category=groups\""
-alias fa="open -a google\ chrome https://www.facebook.com/messages/"
-alias gmai="open -a google\ chrome \"https://mail.google.com/mail/u/0/#inbox\""
-alias liin="open -a google\ chrome \"https://www.linkedin.com/feed/\""
-alias mux="open -a google\ chrome http://www.dayid.org/comp/tm.html"
 alias count="find . -type f | wc -l"
 alias qu="cd ~/Documents/latex_/quantum_2017/four*"
 alias de="cd /Users/johncosnett/Desktop"
