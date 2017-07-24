@@ -8,6 +8,9 @@ export ZSH=~/.oh-my-zsh;
 
 #_____________________________WEB_LINKS______________________________
 
+alias bank="open -a google\ chrome \"https://www.ulsterbankanytimebanking.ie/default.aspx?refererident=D701DAC8B6540BD082C7D8338958808CF94C32A5&cookieid=14329&noscr=false&CookieCheck=2017-07-24T00:32:20\""
+alias company="open -a google\ chrome \"https://nuig.gradireland.com/student/home.html\""
+alias gh="open -a google\ chrome \"https://github.com\""
 alias pira="open -a google\ chrome \"https://thepiratebay-proxylist.org/\""
 alias gloud="open -a google\ chrome \"https://console.cloud.google.com/compute/instances?project=conors-project\""
 alias mai="open -a google\ chrome \"https://outlook.office.com/owa/?realm=nuigalway.ie&exsvurl=1&ll-cc=1033&modurl=0\""
