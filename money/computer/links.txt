@@ -1,0 +1,2 @@
+complete walkthrough 1:
+https://medium.com/towards-data-science/building-your-own-deep-learning-box-47b918aea1eb
