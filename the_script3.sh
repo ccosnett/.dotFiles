@@ -7,22 +7,6 @@ function pause(){
 }
 
 
-##### wget and curl####
-pause "install wget and curl \n\n\n"
-#sudo apt install synergy
-#sudo apt install curl
-#sudo apt install wget
-
-
-
-########chrome##########
-pause "install chrome? \n\n\n"
-wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
-sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
-sudo apt-get install google-chrome-stable
-
-
-
 #########zsh##########
 pause '___________--2       INSTALL ZSH'
 sudo apt-get install zsh;
@@ -35,11 +19,6 @@ sudo sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/to
 
 
 
-
-
-#####emacs24####
-pause "install emacs\n\n\n"
-sudo apt-get install emacs24
 
 
 
@@ -56,12 +35,6 @@ sudo mkdir cube_0;
 cd cube_0;
 sudo git clone https://github.com/JohnCosnett/pymes.git;
 sudo git clone https://github.com/tensorflow/models.git
-
-
-
-
-
-
 
 
 
@@ -110,6 +83,17 @@ pause '___________--  -3       restart zshrc'
 . ~/.zshrc;
 sudo reboot;
 
+
+
+
+
+
+
+
+
+#####emacs24####
+pause "install emacs\n\n\n"
+sudo apt-get install emacs24
 
 
 
