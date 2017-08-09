@@ -23,22 +23,6 @@ sudo sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/to
 
 
 
-########inception######
-pause "install inception\n\n\n"
-
-pwd
-#cd ..;
-sudo git clone https://github.com/JohnCosnett/quantum_2017.git;
-pwd
-mkdir cube_0;
-sudo mkdir cube_0;
-cd cube_0;
-sudo git clone https://github.com/JohnCosnett/pymes.git;
-sudo git clone https://github.com/tensorflow/models.git
-
-
-
-
 
 
 
@@ -95,6 +79,22 @@ sudo reboot;
 pause "install emacs\n\n\n"
 sudo apt-get install emacs24
 
+
+
+
+
+########inception######
+pause "install inception\n\n\n"
+
+pwd
+#cd ..;
+sudo git clone https://github.com/JohnCosnett/quantum_2017.git;
+pwd
+mkdir cube_0;
+sudo mkdir cube_0;
+cd cube_0;
+sudo git clone https://github.com/JohnCosnett/pymes.git;
+sudo git clone https://github.com/tensorflow/models.git
 
 
 
