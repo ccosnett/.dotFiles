@@ -6,90 +6,50 @@ function pause(){
    read -p "$*"
 }
 
+sudo apt-get update 
 
 
-
-
-
-#####emacs24####
-pause "setting passwd ubuntu"
-sudo passwd ubuntu 
-
-#sudo rm -r /etc/sudoers.d/90-cloud-init-users
-
-pause "chownclown smoker"
-
-
-pause '___________--  0.1       '
-sudo apt-get update
-
-pause '___________--  0.2       '
-sudo apt-get install emacs24
-
-
-
-
-
-
-
-
+########chrome##########
+pause "install chrome? \n\n\n"
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
+sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+sudo apt-get install google-chrome-stable
 
 
 
 #########zsh##########
 pause '___________--2       INSTALL ZSH'
 sudo apt-get install zsh;
-
-pause '___________--3       '
 sudo apt-get install git-core;
-
-
-
-pause '___________--  0.1       '
 sudo emacs /etc/passwd
-
-
-
-
-
-
-
-
-
-pause '___________--4'
 sudo wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh;
-
-pause '___________--5'
 sudo chsh -s `which zsh`;
-
-pause '___________--6'
-
-
-pause '___________--7'
 sudo sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 
 
 
 
-pause '___________--8'
-sudo locale-gen en_GB.UTF-8
-pause '___________--9  start of the cubing...'
+
+#####emacs24####
+pause "install emacs\n\n\n"
+sudo apt-get install emacs24
+
+
+
+
+########inception######
+pause "install inception\n\n\n"
+
 pwd
 #cd ..;
-pause '___________--10'
 sudo git clone https://github.com/JohnCosnett/quantum_2017.git;
-pause '___________--11'
 pwd
 mkdir cube_0;
 sudo mkdir cube_0;
-pause '___________--12'
 cd cube_0;
-pause '___________--13'
 sudo git clone https://github.com/JohnCosnett/pymes.git;
-pause '___________--14'
 sudo git clone https://github.com/tensorflow/models.git
-pause '___________--15'
 
 
 
@@ -100,18 +60,6 @@ pause '___________--15'
 
 
 
-
-###########set sudo password
-
-pause '___________--  i       '
-sudo passwd root;
-
-
-pause '___________--  2i       '
-
-pause '___________--  3i       '
-
-pause '___________--  4i       '
 
 
 
