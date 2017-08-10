@@ -8,6 +8,7 @@ export ZSH=~/.oh-my-zsh;
 
 #_____________________________WEB_LINKS______________________________
 
+alias pirat="open -a google\ chrome \"https://thepiratebay-proxylist.org/\""
 alias bank="open -a google\ chrome \"https://www.ulsterbankanytimebanking.ie/default.aspx?refererident=D701DAC8B6540BD082C7D8338958808CF94C32A5&cookieid=14329&noscr=false&CookieCheck=2017-07-24T00:32:20\""
 alias company="open -a google\ chrome \"https://nuig.gradireland.com/student/home.html\""
 alias gh="open -a google\ chrome \"https://github.com\""
@@ -124,6 +125,8 @@ alias v0="sudo osascript -e \"set Volume 0\""
 alias v75="sudo osascript -e \"set Volume 75\""
 alias v1="sudo osascript -e \"set Volume 100\""
 alias b1="brightness 1"
+alias b30="brightness .3"
+alias b40="brightness .4"
 alias b50="brightness .5"
 alias b60="brightness .6"
 alias b70="brightness .7"
