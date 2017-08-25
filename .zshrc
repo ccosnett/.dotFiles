@@ -3,8 +3,14 @@
 
 #i-0bef940e347fcbedb: ec2-52-215-69-201.eu-west-1.compute.amazonaws.com
 #i-03633a6f87d8a3147:
+
+#_____________________________PATH______________________________
 export ZSH=~/.oh-my-zsh;
 #sxmbRtbtcnz6  
+
+
+export PATH=/usr/local/cuda-8.0/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH
 
 #_____________________________WEB_LINKS______________________________
 
@@ -14,12 +20,14 @@ alias company="open -a google\ chrome \"https://nuig.gradireland.com/student/hom
 alias gh="open -a google\ chrome \"https://github.com\""
 alias pira="open -a google\ chrome \"https://thepiratebay-proxylist.org/\""
 alias gloud="open -a google\ chrome \"https://console.cloud.google.com/compute/instances?project=conors-project\""
-alias mai="open -a google\ chrome \"https://outlook.office.com/owa/?realm=nuigalway.ie&exsvurl=1&ll-cc=1033&modurl=0\""
-alias groups="open -a google\ chrome \"https://www.facebook.com/groups/?category=groups\""
-alias fa="open -a google\ chrome https://www.facebook.com/messages/"
+alias ps="xdg-open \"http://popsol.ie\""
+alias mai="xdg-open \"https://outlook.office.com/owa/?realm=nuigalway.ie&exsvurl=1&ll-cc=1033&modurl=0\""
+alias groups="xdg-open \"https://www.facebook.com/groups/?category=groups\""
+alias fa="xdg-open https://www.facebook.com/messages/"
 alias gmai="open -a google\ chrome \"https://mail.google.com/mail/u/0/#inbox\""
 alias liin="open -a google\ chrome \"https://www.linkedin.com/feed/\""
-alias mux="open -a google\ chrome http://www.dayid.org/comp/tm.html"
+alias mux="xdg-open http://www.dayid.org/comp/tm.html"
+alias mux2="xdg-open https://github.com/JohnCosnett/face/blob/master/Zscripts/createSessions.sh "
 
 alias dyn="watch -n.1 ls -1"
 alias ma="open -a safari http://tilda.univ-lille1.fr/wp-content/uploads/2012/08/tex-ref.pdf"
@@ -143,7 +151,7 @@ alias lc="clc"
 alias down="~/Downloads"
 alias de="~/Desktop"
 alias count="find . -type f | wc -l"
-alias qu="cd ~/Documents/latex_/quantum_2017/four*"
+alias qu="cd ~/*/quantum_2017/"
 alias de="cd /Users/johncosnett/Desktop"
 alias pre="open -a preview $1"
 alias dadir="cd /tmp/flowers-data/"
@@ -316,7 +324,7 @@ aug()
 
 au()
 {
-    open -a emacs $1
+   echo "/Applications/Mathematica.app/Contents/MacOS/WolframKernel"
 }
 
 ua()
@@ -338,7 +346,7 @@ op()
 }
 au()
 {
-    open -a emacs $1
+  emacs $1
 }
 AU()
 {
