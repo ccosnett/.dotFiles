@@ -3,7 +3,7 @@
 # git clone https://github.com/JohnCosnett/.dotFiles.git
 
 function pause(){
-   read -p "$*"
+   echo "$*"
 }
 
 
@@ -108,7 +108,7 @@ ln -s ~/.dotFiles/.zshrc ~/.zshrc
 
 pause '___________--  -3       restart zshrc'
 . ~/.zshrc;
-sudo reboot;
+#sudo reboot;
 
 
 

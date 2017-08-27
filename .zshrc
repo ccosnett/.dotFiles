@@ -126,6 +126,7 @@ alias keek="open -a google\ chrome https://tex.stackexchange.com/questions/27921
 
 #_____________________________SYSTEM__________________________bk4asKcV
 
+alias op="xdg-open"
 alias v3="sudo osascript -e \"set Volume 3\""
 alias v25="sudo osascript -e \"set Volume 25\""
 alias v50="sudo osascript -e \"set Volume 50\""
