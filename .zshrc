@@ -128,6 +128,7 @@ alias keek="op https://tex.stackexchange.com/questions/27921/how-can-i-optiâ€Œâ€
 
 #_____________________________SYSTEM__________________________bk4asKcV
 
+alias e="exit"
 alias op="xdg-open"
 alias v3="sudo osascript -e \"set Volume 3\""
 alias v25="sudo osascript -e \"set Volume 25\""
