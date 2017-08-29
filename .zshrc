@@ -7,34 +7,36 @@
 #_____________________________PATH______________________________
 export ZSH=~/.oh-my-zsh;
 #sxmbRtbtcnz6  
-
+xmodmap  ~/.Xmodmap
 
 export PATH=/usr/local/cuda-8.0/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH
 
 #_____________________________WEB_LINKS______________________________
 
-alias pirat="open -a google\ chrome \"https://thepiratebay-proxylist.org/\""
-alias bank="open -a google\ chrome \"https://www.ulsterbankanytimebanking.ie/default.aspx?refererident=D701DAC8B6540BD082C7D8338958808CF94C32A5&cookieid=14329&noscr=false&CookieCheck=2017-07-24T00:32:20\""
-alias company="open -a google\ chrome \"https://nuig.gradireland.com/student/home.html\""
-alias gh="open -a google\ chrome \"https://github.com\""
-alias pira="open -a google\ chrome \"https://thepiratebay-proxylist.org/\""
-alias gloud="open -a google\ chrome \"https://console.cloud.google.com/compute/instances?project=conors-project\""
+alias jax="op http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm#varepsilon"
+alias pirat="op \"https://thepiratebay-proxylist.org/\""
+alias bank="op \"https://www.ulsterbankanytimebanking.ie/default.aspx?refererident=D701DAC8B6540BD082C7D8338958808CF94C32A5&cookieid=14329&noscr=false&CookieCheck=2017-07-24T00:32:20\""
+alias company="open \"https://nuig.gradireland.com/student/home.html\""
+alias gh="op \"https://github.com\""
+alias pira="op \"https://thepiratebay-proxylist.org/\""
+alias gloud="op  \"https://console.cloud.google.com/compute/instances?project=conors-project\""
 alias ps="xdg-open \"http://popsol.ie\""
 alias mai="xdg-open \"https://outlook.office.com/owa/?realm=nuigalway.ie&exsvurl=1&ll-cc=1033&modurl=0\""
+alias emai="xdg-open \"https://webmail.eir.ie/zimbra/mail#1\""
 alias groups="xdg-open \"https://www.facebook.com/groups/?category=groups\""
 alias fa="xdg-open https://www.facebook.com/messages/"
-alias gmai="open -a google\ chrome \"https://mail.google.com/mail/u/0/#inbox\""
-alias liin="open -a google\ chrome \"https://www.linkedin.com/feed/\""
+alias gmai="ope  \"https://mail.google.com/mail/u/0/#inbox\""
+alias liin="ope \"https://www.linkedin.com/feed/\""
 alias mux="xdg-open http://www.dayid.org/comp/tm.html"
 alias mux2="xdg-open https://github.com/JohnCosnett/face/blob/master/Zscripts/createSessions.sh "
 
 alias dyn="watch -n.1 ls -1"
-alias ma="open -a safari http://tilda.univ-lille1.fr/wp-content/uploads/2012/08/tex-ref.pdf"
+alias ma="op http://tilda.univ-lille1.fr/wp-content/uploads/2012/08/tex-ref.pdf"
 
-alias greek="open -a google\ chrome \"http://www.omniglot.com/images/writing/greek_ltr.gif\""
-alias pj="open -a google\ chrome \"Hardware Guide- Neural Networks on GPUs (Updated 2016-1-30).webloc\""
-alias gma="open -a google\ chrome \"https://mail.google.com/mail/u/0/#inbox\""
+alias greek="op \"http://www.omniglot.com/images/writing/greek_ltr.gif\""
+alias pj="op \"Hardware Guide- Neural Networks on GPUs (Updated 2016-1-30).webloc\""
+alias gma="op \"https://mail.google.com/mail/u/0/#inbox\""
 
 #_________________________________________________________________________
 
@@ -112,7 +114,7 @@ amaz()
 
 alias comp="cd /Users/johncosnett/.dotFiles/money/computer"
 
-alias keek="open -a google\ chrome https://tex.stackexchange.com/questions/27921/how-can-i-opti‌​mize-the-keyboard-fo‌​r-frequent-latex-inp‌​ut/27923#27923"
+alias keek="op https://tex.stackexchange.com/questions/27921/how-can-i-opti‌​mize-the-keyboard-fo‌​r-frequent-latex-inp‌​ut/27923#27923"
 
 #quant()
 #{
@@ -153,7 +155,7 @@ alias down="~/Downloads"
 alias de="~/Desktop"
 alias count="find . -type f | wc -l"
 alias qu="cd ~/*/quantum_2017/"
-alias de="cd /Users/johncosnett/Desktop"
+
 alias pre="open -a preview $1"
 alias dadir="cd /tmp/flowers-data/"
 #______________________________________________________________________
@@ -341,10 +343,7 @@ ua()
 
 #_____________________________APPLICATIONS__________________________-
 setopt autocd
-op()
-{
-    open -a $1
-}
+
 au()
 {
   emacs $1
