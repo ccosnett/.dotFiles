@@ -12,6 +12,46 @@ xmodmap  ~/.Xmodmap
 export PATH=/usr/local/cuda-8.0/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH
 
+
+
+#_____________________________SYSTEM__________________________bk4asKcV
+
+alias tar1="tar -xvzf"
+alias gput="watch -n 5 nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader
+"
+alias e="exit"
+alias op="xdg-open"
+alias v3="sudo osascript -e \"set Volume 3\""
+alias v25="sudo osascript -e \"set Volume 25\""
+alias v50="sudo osascript -e \"set Volume 50\""
+alias v0="sudo osascript -e \"set Volume 0\""
+alias v75="sudo osascript -e \"set Volume 75\""
+alias v1="sudo osascript -e \"set Volume 100\""
+alias b1="brightness 1"
+alias b30="brightness .3"
+alias b40="brightness .4"
+alias b50="brightness .5"
+alias b60="brightness .6"
+alias b70="brightness .7"
+alias b80="brightness .8"
+alias b0="brightness 0"
+alias pwdc="pwd | pbcopy"
+alias c="pbcopy"
+alias v="pbpaste -o"
+
+alias sl="clc;ls -1"
+alias SL="clc;ls -1"
+
+alias lc="clc"
+alias down="~/Downloads"
+alias de="~/Desktop"
+alias count="find . -type f | wc -l"
+alias qu="cd ~/*/quantum_2017/"
+
+alias pre="open -a preview $1"
+alias dadir="cd /tmp/flowers-data/"
+
+
 #_____________________________WEB_LINKS______________________________
 
 alias jax="op http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm#varepsilon"
@@ -125,43 +165,6 @@ alias keek="op https://tex.stackexchange.com/questions/27921/how-can-i-optiâ€Œâ€
 
 
 
-
-#_____________________________SYSTEM__________________________bk4asKcV
-
-alias tar1="tar -xvzf"
-alias gput="watch -n 5 nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader
-"
-alias e="exit"
-alias op="xdg-open"
-alias v3="sudo osascript -e \"set Volume 3\""
-alias v25="sudo osascript -e \"set Volume 25\""
-alias v50="sudo osascript -e \"set Volume 50\""
-alias v0="sudo osascript -e \"set Volume 0\""
-alias v75="sudo osascript -e \"set Volume 75\""
-alias v1="sudo osascript -e \"set Volume 100\""
-alias b1="brightness 1"
-alias b30="brightness .3"
-alias b40="brightness .4"
-alias b50="brightness .5"
-alias b60="brightness .6"
-alias b70="brightness .7"
-alias b80="brightness .8"
-alias b0="brightness 0"
-alias pwdc="pwd | pbcopy"
-alias c="pbcopy"
-alias v="pbpaste -o"
-
-alias sl="clc;ls -1"
-alias SL="clc;ls -1"
-
-alias lc="clc"
-alias down="~/Downloads"
-alias de="~/Desktop"
-alias count="find . -type f | wc -l"
-alias qu="cd ~/*/quantum_2017/"
-
-alias pre="open -a preview $1"
-alias dadir="cd /tmp/flowers-data/"
 #______________________________________________________________________
 
 alias money="cd ~/.dotFiles/money"
