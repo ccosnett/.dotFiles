@@ -16,6 +16,8 @@ export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH
 
 #_____________________________SYSTEM__________________________bk4asKcV
 
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
 alias cl="clear"
 alias tar1="tar -xvzf"
 alias gput="watch -n 5 nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader"
