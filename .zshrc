@@ -16,9 +16,9 @@ export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH
 
 #_____________________________SYSTEM__________________________bk4asKcV
 
+alias cl="clear"
 alias tar1="tar -xvzf"
-alias gput="watch -n 5 nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader
-"
+alias gput="watch -n 5 nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader"
 alias e="exit"
 alias op="xdg-open"
 alias v3="sudo osascript -e \"set Volume 3\""
