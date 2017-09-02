@@ -128,6 +128,9 @@ alias keek="op https://tex.stackexchange.com/questions/27921/how-can-i-optiâ€Œâ€
 
 #_____________________________SYSTEM__________________________bk4asKcV
 
+alias tar1="tar -xvzf"
+alias gput="watch -n 5 nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader
+"
 alias e="exit"
 alias op="xdg-open"
 alias v3="sudo osascript -e \"set Volume 3\""
