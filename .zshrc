@@ -12,10 +12,20 @@ xmodmap  ~/.Xmodmap
 export PATH=/usr/local/cuda-8.0/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH
 
-
+#_____________________________TMUX__________________________bk4asKcV
+#tmux
+#tmux set-option -g M-q
 
 #_____________________________SYSTEM__________________________bk4asKcV
 
+alias ww='watch -n2 '
+alias w='watch -n1'
+alias watch='watch '
+alias slam="octave-cli test.m"
+alias o="octave-cli"
+
+
+alias xxxx="xmodmap  ~/.Xmodmap"
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 alias cl="clear"
@@ -219,8 +229,8 @@ lrrr()
     sudo  rm -r ~/.dotFiles/;
     sudo  rm -r ~/.emacs.d; 
     cd ~;
-    git clone https://github.com/ccosnett/.dotFiles.git;
-    git clone https://github.com/ccosnett/.emacs.d.git;
+    git clone https://github.com/JohnCosnett/.dotFiles.git;
+    git clone https://github.com/JohnCosnett/.emacs.d.git;
     cd  ~/.dotFiles;
     pwd;
 #    git fetch https://github.com/JohnCosnett/.dotFiles.git;
@@ -248,20 +258,20 @@ rl()
 #    git --git-dir ~/.dotFiles/.git/ --work-tree ~/.dotFiles add . ;
 #    git --git-dir ~/.dotFiles/.git/ --work-tree ~/.dotFiles/ commit -m 'something';
     cd ~/.dotFiles;
-    git pull https://github.com/ccosnett/.dotFiles.git master;
+    git pull https://github.com/JohnCosnett/.dotFiles.git master;
     git add .;
     git commit -m "hn";
     echo "here";
-    git push https://github.com/ccosnett/.dotFiles.git master;
+    git push https://github.com/JohnCosnett/.dotFiles.git master;
     echo "there and back again";
      - ;
      . ~/.zshrc;
     cd ~/.emacs.d;
-    git pull https://github.com/ccosnett/.emacs.d.git master;
+    git pull https://github.com/JohnCosnett/.emacs.d.git master;
     git add .;
     git commit -m "hn";
     echo "here";
-    git push https://github.com/ccosnett/.emacs.d.git master;
+    git push https://github.com/JohnCosnett/.emacs.d.git master;
     echo "dot nd aug";
      - ;
     . ~/.zshrc;
