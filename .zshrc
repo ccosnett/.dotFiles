@@ -14,10 +14,12 @@ export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH
 
 #_____________________________TMUX__________________________bk4asKcV
 #tmux
-#tmux set-option -g M-q
+alias kee="tmux set-option -g prefix \"M-q\""
+alias keex="xmodmap  ~/.Xmodmap"
 
 #_____________________________SYSTEM__________________________bk4asKcV
 
+alias fl="cd $HOME;clear"
 alias ww='watch -n2 '
 alias w='watch -n1'
 alias watch='watch '
