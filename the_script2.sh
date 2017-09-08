@@ -1,4 +1,7 @@
 #!/bin/bash
+function pause(){
+   echo "$*"
+}
 # ami-cd1ffab4
 # git clone https://github.com/JohnCosnett/.dotFiles.git
 

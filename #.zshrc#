@@ -331,7 +331,7 @@ gitin()
 
 alias mmaSetup="cd /Applications/Mathematica.app/Contents/SystemFiles/FrontEnd/
 TextResources/Macintosh/"
-alias face="cd $HOME/face"
+alias face="cd $HOME/Documents/Wolfram\ Mathematica/face"
 alias init="au /Users/johncosnett/Library/Mathematica/Kernel/init.m"
 alias mma="/Applications/Mathematica.app/Contents/MacOS/MathKernel"
 # /Applications/Mathematica.app/Contents/MacOS/WolframKernel -script file.wl
