@@ -19,7 +19,7 @@ alias keex="xmodmap  ~/.Xmodmap"
 
 #_____________________________SYSTEM__________________________bk4asKcV
 
-
+alias coin="echo 0xD37E8d2F0b02C15c7b9d6A6773dC5Ec98F6517C8 | pbcopy"
 alias fl="cd $HOME;clear"
 alias ww='watch -n2 '
 alias w='watch -n1'
@@ -70,6 +70,7 @@ alias dadir="cd /tmp/flowers-data/"
 
 #_____________________________WEB_LINKS______________________________
 
+alias coi="op https://ethermine.org/miners/D37E8d2F0b02C15c7b9d6A6773dC5Ec98F6517C8/"
 alias ggg="op \"https://github.com/ccosnett?tab=repositories\""
 alias jax="op http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm#varepsilon"
 alias pirat="op \"https://thepiratebay-proxylist.org/\""
