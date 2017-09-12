@@ -1,8 +1,25 @@
-#git clone https://github.com/JohnCosnett/.dotFiles.git
-# git clone https://github.com/JohnCosnett/pymes.git
 
-#i-0bef940e347fcbedb: ec2-52-215-69-201.eu-west-1.compute.amazonaws.com
-#i-03633a6f87d8a3147:
+
+
+
+platform='unknown'
+unamestr=`uname`
+if [[ "$unamestr" == 'Linux' ]]; then
+   platform='linux'
+elif [[ "$unamestr" == 'Darwin' ]]; then
+   platform='freebsd'
+   echo "b"
+fi
+
+
+if [[ $platform == 'linux' ]]; then
+   alias op='xdg-open '
+elif [[ $platform == 'freebsd' ]]; then
+   alias op='open '
+fi
+
+
+alias tb="cd ~/Documents/c_programs/"
 alias web=op "google\ chrome"
 #_____________________________PATH______________________________
 export ZSH=~/.oh-my-zsh;
@@ -25,7 +42,7 @@ alias ww='watch -n2 '
 alias w='watch -n1'
 alias watch='watch '
 alias slam="octave-cli test.m"
-alias o="octave-cli"
+alias o="clc;octave-cli"
 
 
 alias xxxx="xmodmap  ~/.Xmodmap"
@@ -36,7 +53,7 @@ alias tar2="tar jxf"
 alias tar1="tar -xvzf"
 alias gput="watch -n 5 nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader"
 alias e="exit"
-alias op="xdg-open"
+
 alias v3="sudo osascript -e \"set Volume 3\""
 alias v25="sudo osascript -e \"set Volume 25\""
 alias v50="sudo osascript -e \"set Volume 50\""

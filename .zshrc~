@@ -1,10 +1,119 @@
- #   git clone https://github.com/JohnCosnett/.dotFiles.git
-# git clone https://github.com/JohnCosnett/pymes.git
 
-#i-0bef940e347fcbedb: ec2-52-215-69-201.eu-west-1.compute.amazonaws.com
-#i-03633a6f87d8a3147:
+
+
+
+platform='unknown'
+unamestr=`uname`
+if [[ "$unamestr" == 'Linux' ]]; then
+   platform='linux'
+elif [[ "$unamestr" == 'Darwin' ]]; then
+   platform='freebsd'
+   echo "b"
+fi
+
+
+if [[ $platform == 'linux' ]]; then
+   alias open='xdg-open '
+elif [[ $platform == 'freebsd' ]]; then
+   alias open='open '
+fi
+
+
+alias tb="cd ~/Documents/c_programs/"
+alias web=op "google\ chrome"
+#_____________________________PATH______________________________
 export ZSH=~/.oh-my-zsh;
+#sxmbRtbtcnz6  
+xmodmap  ~/.Xmodmap
 
+export PATH=/usr/local/cuda-8.0/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH
+
+#_____________________________TMUX__________________________bk4asKcV
+#tmux
+alias kee="tmux set-option -g prefix \"M-q\""
+alias keex="xmodmap  ~/.Xmodmap"
+
+#_____________________________SYSTEM__________________________bk4asKcV
+
+alias coin="echo 0xD37E8d2F0b02C15c7b9d6A6773dC5Ec98F6517C8 | pbcopy"
+alias fl="cd $HOME;clear"
+alias ww='watch -n2 '
+alias w='watch -n1'
+alias watch='watch '
+alias slam="octave-cli test.m"
+alias o="clc;octave-cli"
+
+
+alias xxxx="xmodmap  ~/.Xmodmap"
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
+alias cl="clear"
+alias tar2="tar jxf"
+alias tar1="tar -xvzf"
+alias gput="watch -n 5 nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader"
+alias e="exit"
+
+alias v3="sudo osascript -e \"set Volume 3\""
+alias v25="sudo osascript -e \"set Volume 25\""
+alias v50="sudo osascript -e \"set Volume 50\""
+alias v0="sudo osascript -e \"set Volume 0\""
+alias v75="sudo osascript -e \"set Volume 75\""
+alias v1="sudo osascript -e \"set Volume 100\""
+alias b1="brightness 1"
+alias b30="brightness .3"
+alias b40="brightness .4"
+alias b50="brightness .5"
+alias b60="brightness .6"
+alias b70="brightness .7"
+alias b80="brightness .8"
+alias b0="brightness 0"
+alias pwdc="pwd | pbcopy"
+alias c="pbcopy"
+alias v="pbpaste -o"
+
+alias sl="clc;ls -1"
+alias SL="clc;ls -1"
+
+alias lc="clc"
+alias down="~/Downloads"
+alias de="~/Desktop"
+alias count="find . -type f | wc -l"
+alias qu="cd ~/*/quantum_2017/"
+
+alias pre="open -a preview $1"
+alias dadir="cd /tmp/flowers-data/"
+
+
+#_____________________________WEB_LINKS______________________________
+
+alias coi="op https://ethermine.org/miners/D37E8d2F0b02C15c7b9d6A6773dC5Ec98F6517C8/"
+alias ggg="op \"https://github.com/ccosnett?tab=repositories\""
+alias jax="op http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm#varepsilon"
+alias pirat="op \"https://thepiratebay-proxylist.org/\""
+alias bank="op \"https://www.ulsterbankanytimebanking.ie/default.aspx?refererident=D701DAC8B6540BD082C7D8338958808CF94C32A5&cookieid=14329&noscr=false&CookieCheck=2017-07-24T00:32:20\""
+alias company="open \"https://nuig.gradireland.com/student/home.html\""
+alias gh="op \"https://github.com\""
+alias pira="op \"https://thepiratebay-proxylist.org/\""
+alias gloud="op  \"https://console.cloud.google.com/compute/instances?project=conors-project\""
+alias ps="xdg-open \"http://popsol.ie\""
+alias mai="xdg-open \"https://outlook.office.com/owa/?realm=nuigalway.ie&exsvurl=1&ll-cc=1033&modurl=0\""
+alias emai="xdg-open \"https://webmail.eir.ie/zimbra/mail#1\""
+alias groups="xdg-open \"https://www.facebook.com/groups/?category=groups\""
+alias fa="xdg-open https://www.facebook.com/messages/"
+alias gmai="ope  \"https://mail.google.com/mail/u/0/#inbox\""
+alias liin="ope \"https://www.linkedin.com/feed/\""
+alias mux="xdg-open http://www.dayid.org/comp/tm.html"
+alias mux2="xdg-open https://github.com/JohnCosnett/face/blob/master/Zscripts/createSessions.sh "
+
+alias dyn="watch -n.1 ls -1"
+alias ma="op http://tilda.univ-lille1.fr/wp-content/uploads/2012/08/tex-ref.pdf"
+
+alias greek="op \"http://www.omniglot.com/images/writing/greek_ltr.gif\""
+alias pj="op \"Hardware Guide- Neural Networks on GPUs (Updated 2016-1-30).webloc\""
+alias gma="op \"https://mail.google.com/mail/u/0/#inbox\""
+
+#_________________________________________________________________________
 
 
 
@@ -77,6 +186,11 @@ amaz()
 
 
 #_____________________________LATEX__________________________________
+
+alias comp="cd /Users/johncosnett/.dotFiles/money/computer"
+
+alias keek="op https://tex.stackexchange.com/questions/27921/how-can-i-opti‌​mize-the-keyboard-fo‌​r-frequent-latex-inp‌​ut/27923#27923"
+
 #quant()
 #{
 #    cd ~/Documents/lat*/quant*7;
@@ -86,17 +200,6 @@ amaz()
 
 
 
-
-#_____________________________SYSTEM__________________________-
-alias lc="clc"
-alias down="~/Downloads"
-alias de="~/Desktop"
-alias mux="open -a safari http://www.dayid.org/comp/tm.html"
-alias count="find . -type f | wc -l"
-alias qu="cd ~/Documents/latex_/quantum_2017"
-alias de="cd /Users/johncosnett/Desktop"
-alias pre="open -a preview $1"
-alias dadir="cd /tmp/flowers-data/"
 #______________________________________________________________________
 
 alias money="cd ~/.dotFiles/money"
@@ -107,12 +210,20 @@ alias prof="cd ~/Desktop/prof"
 alias clu="rm *~; rm *fits;rm *#*; chmod 777 *"
 #_____________________________YORICK__________________________-
 
-alias yb="/Users/johncosnett/yoricksPackages/04_Yorick/relocate/bin/yorick -batch";
+alias clearpex="pex; clu; rm plan*;tk"
+alias pexclear="pex; clu; rm plan*;tk"
+alias cre="tk; /Users/johncosnett/Documents/Wolfram\ Mathematica/face/Zscripts/createSessions.sh; tmux ls"
+alias yb="/home/conor/datacontainer1/04_yorick/relocate/bin/yorick -batch ";
 alias pexy="cd ~/*/*/mes";
 alias pex="cd ~/*/*/mes/experimenter"
 alias yyy="clc;cd ~/Dropbox/yorick_and_stuff/"
 alias yy="rm *fits; y"
-alias y="rlwrap -c /Users/johncosnett/yoricksPackages/04_Yorick/relocate/bin/yorick";
+alias y="rlwrap -c /home/conor/datacontainer1/04_yorick/relocate/bin/yorick";
+#***********************************************************************
+
+
+#_____________________________TMUX__________________________-
+alias tk="tmux kill-server"
 #***********************************************************************
 
 
@@ -135,17 +246,20 @@ alias yyb="yb ba288.i"
 ##_____________________________ZSH__________________________-
 # testing this mdamnmmxm contraptionnnnn
 
+alias zz="/Users/johncosnett/Documents/Wolfram\ Mathematica/face/Zscripts"
 lrrr()
 {
     sudo  rm -r ~/.dotFiles/;
+    sudo  rm -r ~/.emacs.d; 
     cd ~;
-    git clone https://github.com/JohnCosnett/.dotFiles.git;
+    git clone https://github.com/ccosnett/.dotFiles.git;
+    git clone https://github.com/ccosnett/.emacs.d.git;
     cd  ~/.dotFiles;
     pwd;
 #    git fetch https://github.com/JohnCosnett/.dotFiles.git;
     . ~/.zshrc;
   #  clc; 
-    echo "destroying .zshrc and reloading from the cloudss";
+    echo "destroying .dotFiles/ and .emacs.d/ reloading from the cloudss";
  }
 alias ez="au ~/.dotFiles/.zshrc"
 
@@ -167,12 +281,21 @@ rl()
 #    git --git-dir ~/.dotFiles/.git/ --work-tree ~/.dotFiles add . ;
 #    git --git-dir ~/.dotFiles/.git/ --work-tree ~/.dotFiles/ commit -m 'something';
     cd ~/.dotFiles;
-    git pull https://github.com/JohnCosnett/.dotFiles.git master;
+    git pull https://github.com/ccosnett/.dotFiles.git master;
     git add .;
     git commit -m "hn";
     echo "here";
-    git push https://github.com/JohnCosnett/.dotFiles.git master;
+    git push https://github.com/ccosnett/.dotFiles.git master;
     echo "there and back again";
+     - ;
+     . ~/.zshrc;
+    cd ~/.emacs.d;
+    git pull https://github.com/ccosnett/.emacs.d.git master;
+    git add .;
+    git commit -m "hn";
+    echo "here";
+    git push https://github.com/ccosnett/.emacs.d.git master;
+    echo "dot nd aug";
      - ;
     . ~/.zshrc;
 }
@@ -186,8 +309,6 @@ lsl()
 {
     clc;ls -t -1    
 }
-alias sl="clc;ls -1"
-alias SL="clc;ls -1"
 #***********************************************************************
 
 
@@ -228,7 +349,7 @@ gitin()
 
 alias mmaSetup="cd /Applications/Mathematica.app/Contents/SystemFiles/FrontEnd/
 TextResources/Macintosh/"
-alias face="cd /Users/johncosnett/Documents/Wolfram\ Mathematica/face"
+alias face="cd $HOME/face"
 alias init="au /Users/johncosnett/Library/Mathematica/Kernel/init.m"
 alias mma="/Applications/Mathematica.app/Contents/MacOS/MathKernel"
 # /Applications/Mathematica.app/Contents/MacOS/WolframKernel -script file.wl
@@ -239,17 +360,35 @@ ce()
 alias mm="/Applications/Mathematica.app/Contents/MacOS/WolframKernel" 
 #***********************************************************************
 
+#_____________________________EMACS___________________________________-
+
+aug()
+{
+    cd ~/.emacs.d/
+}
+
+au()
+{
+   echo "/Applications/Mathematica.app/Contents/MacOS/WolframKernel"
+}
+
+ua()
+{
+    open -a emacs ~/.emacs.d/init.el
+}
+
+
+
+#**********************************************************************
+
 
 
 #_____________________________APPLICATIONS__________________________-
 setopt autocd
-op()
-{
-    open -a $1
-}
+
 au()
 {
-    open -a emacs $1
+  emacs $1
 }
 AU()
 {
@@ -455,7 +594,7 @@ calc()
     cd /Users/johncosnett/Movies/calculusLib/
 }
 
-alias c="cd /Users/johncosnett/Movies/calculusLib/waveopticsLIB"
+
 shortcuts()
 {
 	echo "om                  :> opens Mathematica.app"
@@ -587,7 +726,7 @@ export PATH="$HOME/.bin:$PATH"
 
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/johncosnett/Documents/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/johncosnett/Documents/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '/Users/johncosnett/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/johncosnett/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/johncosnett/Documents/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/johncosnett/Documents/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f '/Users/johncosnett/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/johncosnett/google-cloud-sdk/completion.zsh.inc'; fi
