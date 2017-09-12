@@ -18,7 +18,7 @@ elif [[ $platform == 'freebsd' ]]; then
    alias op='open '
 fi
 
-
+alias gith="op https://github.com/"
 alias tb="cd ~/Documents/c_programs/"
 alias web=op "google\ chrome"
 #_____________________________PATH______________________________

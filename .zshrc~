@@ -13,9 +13,9 @@ fi
 
 
 if [[ $platform == 'linux' ]]; then
-   alias open='xdg-open '
+   alias op='xdg-open '
 elif [[ $platform == 'freebsd' ]]; then
-   alias open='open '
+   alias op='open '
 fi
 
 
