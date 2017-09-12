@@ -8,18 +8,22 @@ if [[ "$unamestr" == 'Linux' ]]; then
    platform='linux'
 elif [[ "$unamestr" == 'Darwin' ]]; then
    platform='freebsd'
-   echo "b"
+   echo "b";
 fi
 
 
 if [[ $platform == 'linux' ]]; then
    alias op='xdg-open '
+   alias pbcopy='xclip -selection clipboard'
+   alias pbpaste='xclip -selection clipboard -o'
 elif [[ $platform == 'freebsd' ]]; then
    alias op='open '
+   alias pbcopy='pbcopy'
+   alias pbpaste='pbpaste'
 fi
 
-
-alias tb="cd ~/Documents/c_programs/"
+alias gith="op https://github.com/"
+alias tb="cd ~/Documents/c_programs/; clear"
 alias web=op "google\ chrome"
 #_____________________________PATH______________________________
 export ZSH=~/.oh-my-zsh;
@@ -46,8 +50,8 @@ alias o="clc;octave-cli"
 
 
 alias xxxx="xmodmap  ~/.Xmodmap"
-alias pbcopy='xclip -selection clipboard'
-alias pbpaste='xclip -selection clipboard -o'
+
+
 alias cl="clear"
 alias tar2="tar jxf"
 alias tar1="tar -xvzf"
@@ -61,6 +65,8 @@ alias v0="sudo osascript -e \"set Volume 0\""
 alias v75="sudo osascript -e \"set Volume 75\""
 alias v1="sudo osascript -e \"set Volume 100\""
 alias b1="brightness 1"
+alias b10="brightness .1"
+alias b20="brightness .2"
 alias b30="brightness .3"
 alias b40="brightness .4"
 alias b50="brightness .5"
@@ -87,6 +93,7 @@ alias dadir="cd /tmp/flowers-data/"
 
 #_____________________________WEB_LINKS______________________________
 
+alias tt="op \"https://www.facebook.com/photo.php?fbid=696964713829012&set=gm.169329346962851&type=3&theater&ifg=1\""
 alias coi="op https://ethermine.org/miners/D37E8d2F0b02C15c7b9d6A6773dC5Ec98F6517C8/"
 alias ggg="op \"https://github.com/ccosnett?tab=repositories\""
 alias jax="op http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm#varepsilon"
@@ -97,10 +104,10 @@ alias gh="op \"https://github.com\""
 alias pira="op \"https://thepiratebay-proxylist.org/\""
 alias gloud="op  \"https://console.cloud.google.com/compute/instances?project=conors-project\""
 alias ps="xdg-open \"http://popsol.ie\""
-alias mai="xdg-open \"https://outlook.office.com/owa/?realm=nuigalway.ie&exsvurl=1&ll-cc=1033&modurl=0\""
+alias mai="op \"https://outlook.office.com/owa/?realm=nuigalway.ie&exsvurl=1&ll-cc=1033&modurl=0\""
 alias emai="xdg-open \"https://webmail.eir.ie/zimbra/mail#1\""
-alias groups="xdg-open \"https://www.facebook.com/groups/?category=groups\""
-alias fa="xdg-open https://www.facebook.com/messages/"
+alias groups="op \"https://www.facebook.com/groups/?category=groups\""
+alias fa="op https://www.facebook.com/messages/"
 alias gmai="ope  \"https://mail.google.com/mail/u/0/#inbox\""
 alias liin="ope \"https://www.linkedin.com/feed/\""
 alias mux="xdg-open http://www.dayid.org/comp/tm.html"
