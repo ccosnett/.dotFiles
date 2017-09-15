@@ -22,6 +22,11 @@ elif [[ $platform == 'freebsd' ]]; then
    alias pbpaste='pbpaste'
 fi
 
+s()
+{
+  clear;
+  say $1
+}
 
 alias gith="op https://github.com/"
 alias tb="cd ~/Documents/c_programs/; clear"
@@ -41,6 +46,8 @@ alias keex="xmodmap  ~/.Xmodmap"
 
 #_____________________________SYSTEM__________________________bk4asKcV
 
+
+alias es="cd ~/Desktop/fuk*"
 mine(){
     cd /usr/local/clay*;
     ./mine.sh
