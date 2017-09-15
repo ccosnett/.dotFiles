@@ -22,6 +22,7 @@ elif [[ $platform == 'freebsd' ]]; then
    alias pbpaste='pbpaste'
 fi
 
+
 alias gith="op https://github.com/"
 alias tb="cd ~/Documents/c_programs/; clear"
 alias web=op "google\ chrome"
@@ -40,6 +41,10 @@ alias keex="xmodmap  ~/.Xmodmap"
 
 #_____________________________SYSTEM__________________________bk4asKcV
 
+mine(){
+    cd /usr/local/clay*;
+    ./mine.sh
+}
 alias coin="echo 0xD37E8d2F0b02C15c7b9d6A6773dC5Ec98F6517C8 | pbcopy"
 alias fl="cd $HOME;clear"
 alias ww='watch -n2 '
