@@ -1,4 +1,12 @@
 
+
+
+#_____________________________electrons_in_metal__________________________
+alias es="cd ~/Desktop/fuk*"
+alias esd="op https://en.wikipedia.org/wiki/Drude_model"
+
+
+
 alias doc="cd ~/Documents "
 
 
@@ -36,18 +44,19 @@ export ZSH=~/.oh-my-zsh;
 #sxmbRtbtcnz6  
 xmodmap  ~/.Xmodmap
 
+
 export PATH=/usr/local/cuda-8.0/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH
 
 #_____________________________TMUX__________________________bk4asKcV
 #tmux
 alias kee="tmux set-option -g prefix \"M-q\""
+
+
 alias keex="xmodmap  ~/.Xmodmap"
 
 #_____________________________SYSTEM__________________________bk4asKcV
 
-
-alias es="cd ~/Desktop/fuk*"
 mine(){
     cd /usr/local/clay*;
     ./mine.sh
