@@ -244,10 +244,11 @@ alias clu="rm *~; rm *fits;rm *#*; chmod 777 *"
 
 alias clearpex="pex; clu; rm plan*;tk"
 alias pexclear="pex; clu; rm plan*;tk"
+alias p="pexclear"
 alias cre="tk; /Users/johncosnett/Documents/Wolfram\ Mathematica/face/Zscripts/createSessions.sh; tmux ls"
 alias yb="/home/conor/datacontainer1/04_yorick/relocate/bin/yorick -batch ";
 alias pexy="cd ~/*/*/mes";
-alias pex="cd ~/*/*/mes/experimenter"
+alias pex="cd ~/datacontainer1/*/mes/experimenter"
 alias yyy="clc;cd ~/Dropbox/yorick_and_stuff/"
 alias yy="rm *fits; y"
 alias y="rlwrap -c /home/conor/datacontainer1/04_yorick/relocate/bin/yorick";
