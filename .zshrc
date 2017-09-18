@@ -1,10 +1,8 @@
 
-
-
 #_____________________________electrons_in_metal__________________________
 alias es="cd ~/Desktop/fuk*"
 alias esd="op https://en.wikipedia.org/wiki/Drude_model"
-
+alias nic="cd ~/Desktop/nic*"
 
 
 alias doc="cd ~/Documents "
@@ -39,6 +37,10 @@ s()
 alias gith="op https://github.com/"
 alias tb="cd ~/Documents/c_programs/; clear"
 alias web=op "google\ chrome"
+#_____________________________Physics______________________________
+alias symbols="op \"https://en.wikipedia.org/wiki/List_of_common_physics_notations\""
+
+
 #_____________________________PATH______________________________
 export ZSH=~/.oh-my-zsh;
 #sxmbRtbtcnz6  
@@ -114,6 +116,7 @@ alias dadir="cd /tmp/flowers-data/"
 
 #_____________________________WEB_LINKS______________________________
 
+alias libgen="op http://libgen.io/"
 alias bb="op \"https://nuigalway.blackboard.com/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_1_1\""
 alias tt="op \"https://www.facebook.com/photo.php?fbid=696964713829012&set=gm.169329346962851&type=3&theater&ifg=1\""
 alias coi="op https://ethermine.org/miners/D37E8d2F0b02C15c7b9d6A6773dC5Ec98F6517C8/"
@@ -125,7 +128,7 @@ alias company="open \"https://nuig.gradireland.com/student/home.html\""
 alias gh="op \"https://github.com\""
 alias pira="op \"https://thepiratebay-proxylist.org/\""
 alias gloud="op  \"https://console.cloud.google.com/compute/instances?project=conors-project\""
-alias ps="xdg-open \"http://popsol.ie\""
+alias ps="op \"http://popsol.ie\""
 alias mai="op \"https://outlook.office.com/owa/?realm=nuigalway.ie&exsvurl=1&ll-cc=1033&modurl=0\""
 alias emai="xdg-open \"https://webmail.eir.ie/zimbra/mail#1\""
 alias groups="op \"https://www.facebook.com/groups/?category=groups\""
@@ -275,7 +278,7 @@ alias yyb="yb ba288.i"
 ##_____________________________ZSH__________________________-
 # testing this mdamnmmxm contraptionnnnn
 
-alias zz="/Users/johncosnett/Documents/Wolfram\ Mathematica/face/Zscripts"
+alias zz="/Users/johncosnett/face/Zscripts"
 lrrr()
 {
     sudo  rm -r ~/.dotFiles/;
