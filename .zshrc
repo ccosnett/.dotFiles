@@ -113,7 +113,7 @@ alias qu="cd ~/*/quantum_2017/"
 alias pre="open -a preview $1"
 alias dadir="cd /tmp/flowers-data/"
 
-
+alias keyb="cd /Applications/Mathematica.app/Contents/SystemFiles/FrontEnd/TextResources/Macintosh"
 #_____________________________WEB_LINKS______________________________
 
 alias libgen="op http://libgen.io/"
@@ -278,7 +278,7 @@ alias yyb="yb ba288.i"
 ##_____________________________ZSH__________________________-
 # testing this mdamnmmxm contraptionnnnn
 
-alias zz="/Users/johncosnett/face/Zscripts"
+alias zz="cd $HOME/face/Zscripts"
 lrrr()
 {
     sudo  rm -r ~/.dotFiles/;
