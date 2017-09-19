@@ -38,8 +38,8 @@ alias gith="op https://github.com/"
 alias tb="cd ~/Documents/c_programs/; clear"
 alias web=op "google\ chrome"
 #_____________________________Physics______________________________
-alias symbols="op \"https://en.wikipedia.org/wiki/List_of_common_physics_notations\""
-
+alias symbols="op \"https://en.wikipedia.org/wiki/List_of_common_physics_notations\"";
+alias zp="cd ~/Dropbox/z_p*"
 
 #_____________________________PATH______________________________
 export ZSH=~/.oh-my-zsh;
