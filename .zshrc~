@@ -22,10 +22,12 @@ if [[ $platform == 'linux' ]]; then
    alias op='xdg-open '
    alias pbcopy='xclip -selection clipboard'
    alias pbpaste='xclip -selection clipboard -o'
+   alias pex="cd ~/datacontainer1/*/mes/experimenter"
 elif [[ $platform == 'freebsd' ]]; then
    alias op='open '
    alias pbcopy='pbcopy'
    alias pbpaste='pbpaste'
+   alias pex="cd ~/yoricksPackages/*/mes/experimenter"
 fi
 
 s()
@@ -39,7 +41,9 @@ alias tb="cd ~/Documents/c_programs/; clear"
 alias web=op "google\ chrome"
 #_____________________________Physics______________________________
 alias symbols="op \"https://en.wikipedia.org/wiki/List_of_common_physics_notations\"";
-alias zp="cd ~/Dropbox/z_p*"
+alias zp="cd ~/Dropbox/z_p*";
+alias comsol="cd ~/Desktop/COMP*; "
+
 
 #_____________________________PATH______________________________
 export ZSH=~/.oh-my-zsh;
@@ -248,7 +252,7 @@ alias p="pexclear"
 alias cre="tk; /Users/johncosnett/Documents/Wolfram\ Mathematica/face/Zscripts/createSessions.sh; tmux ls"
 alias yb="/home/conor/datacontainer1/04_yorick/relocate/bin/yorick -batch ";
 alias pexy="cd ~/*/*/mes";
-alias pex="cd ~/datacontainer1/*/mes/experimenter"
+
 alias yyy="clc;cd ~/Dropbox/yorick_and_stuff/"
 alias yy="rm *fits; y"
 alias y="rlwrap -c /home/conor/datacontainer1/04_yorick/relocate/bin/yorick";

@@ -42,7 +42,7 @@ alias web=op "google\ chrome"
 #_____________________________Physics______________________________
 alias symbols="op \"https://en.wikipedia.org/wiki/List_of_common_physics_notations\"";
 alias zp="cd ~/Dropbox/z_p*";
-alias comsol="cd ~/Desktop/COMP*; op \"https://www.facebook.com/photo.php?fbid=701414376717379&set=pcb.347607635695678&type=3&theater&ifg=1\""
+alias comsol="cd ~/Desktop/COMP*;op  "
 
 
 #_____________________________PATH______________________________
@@ -225,7 +225,7 @@ amaz()
 
 alias comp="cd /Users/johncosnett/.dotFiles/money/computer"
 
-alias keek="op https://tex.stackexchange.com/questions/27921/how-can-i-optiâ€Œâ€‹mize-the-keyboard-foâ€Œâ€‹r-frequent-latex-inpâ€Œâ€‹ut/27923#27923"
+alias keek="op https://tex.stackexchange.com/questions/27921/how-can-i-optiœôòìœôòëmize-the-keyboard-foœôòìœôòër-frequent-latex-inpœôòìœôòëut/27923#27923"
 
 #quant()
 #{
