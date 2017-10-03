@@ -36,14 +36,21 @@ s()
   say $1
 }
 
+S()
+{
+  clear;
+  say $1
+}
+
 alias gith="op https://github.com/"
 alias tb="cd ~/Documents/c_programs/; clear"
 alias web=op "google\ chrome"
 #_____________________________Physics______________________________
+alias electro="cd ~/Dropbox/01*"
 alias symbols="op \"https://en.wikipedia.org/wiki/List_of_common_physics_notations\"";
 alias zp="cd ~/Dropbox/z_p*";
-alias comsol="cd ~/Desktop/COMP*; "
-
+alias com="cd ~/Desktop/COM*; op \"https://www.facebook.com/photo.php?fbid=701414376717379&set=pcb.347607635695678&type=3&theater&ifg=1\""
+alias alph="op https://www.wolframalpha.com/"
 
 #_____________________________PATH______________________________
 export ZSH=~/.oh-my-zsh;
