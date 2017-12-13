@@ -1,9 +1,18 @@
 
+alias drop="cd ~/Dropbox"
+alias laue="op \"https://www.facebook.com/groups/167565493829213/167565883829174/\""
+alias G="cd ~/Drop*/09_*/G/"
+alias gold="cd ~/Drop*/04_*/EX*/*old*"
+alias clim="op ~/Dropbox/04_*"
+alias irc="op \"http://research.ie/funding/goipg/?f=postgraduate\""
+
 #_____________________________electrons_in_metal__________________________
+alias cb="cd ~/Dropbox/04_*/BOO*"
+alias sol="cd ~/Dropbox/02_solid"
 alias es="cd ~/Desktop/fuk*"
 alias esd="op https://en.wikipedia.org/wiki/Drude_model"
 alias nic="cd ~/Desktop/nic*"
-
+alias droppp="cp -r ~/prism_ghost ~/Dropbox/02_solid/min;cp -r ~/Desktop/prism ~/Dropbox/02_solid/min;"
 
 alias doc="cd ~/Documents "
 
@@ -46,11 +55,15 @@ alias gith="op https://github.com/"
 alias tb="cd ~/Documents/c_programs/; clear"
 alias web=op "google\ chrome"
 #_____________________________Physics______________________________
-alias electro="cd ~/Dropbox/01*"
+alias quan="cd ~/Dropbox/03*"
+alias pris="cd ~/prism_gh*"
+alias ele="cd ~/Dropbox/01*/lect*"
 alias symbols="op \"https://en.wikipedia.org/wiki/List_of_common_physics_notations\"";
 alias zp="cd ~/Dropbox/z_p*";
-alias com="cd ~/Desktop/COM*; op \"https://www.facebook.com/photo.php?fbid=701414376717379&set=pcb.347607635695678&type=3&theater&ifg=1\""
+alias com="cd ~/Desktop/COM*;"
+alias comm="cd ~/Desktop/COM*; op \"https://www.facebook.com/photo.php?fbid=701414376717379&set=pcb.347607635695678&type=3&theater&ifg=1\""
 alias alph="op https://www.wolframalpha.com/"
+alias lib="op \"https://www.facebook.com/groups/294453051011137/\""
 
 #_____________________________PATH______________________________
 export ZSH=~/.oh-my-zsh;
@@ -85,7 +98,7 @@ alias o="clc;octave-cli"
 
 alias xxxx="xmodmap  ~/.Xmodmap"
 
-
+fl;
 alias cl="clear"
 alias tar2="tar jxf"
 alias tar1="tar -xvzf"
@@ -116,7 +129,7 @@ alias sl="clc;ls -1"
 alias SL="clc;ls -1"
 
 alias lc="clc"
-alias down="~/Downloads"
+alias dow="~/Downloads"
 alias de="~/Desktop"
 alias count="find . -type f | wc -l"
 alias qu="cd ~/*/quantum_2017/"
@@ -447,6 +460,7 @@ alias sa="open -a safari $1"
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
+alias irene="https://www.pornhub.com/view_video.php?viewkey=422598990"
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
 #ZSH_THEME="agnoster"
