@@ -1,6 +1,4 @@
-alias rod="cd /home/conor/Dropbox/01_essay/phase_mask_rodier"
-alias say2='echo "$1" | espeak -s 120 2>/dev/null'
-
+alias rod="cd "
 alias cor="de; cd coronag*"
 alias drop="cd ~/Dropbox"
 alias laue="op \"https://www.facebook.com/groups/167565493829213/167565883829174/\""
@@ -28,6 +26,19 @@ elif [[ "$unamestr" == 'Darwin' ]]; then
    platform='freebsd'
    echo "b";
 fi
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 if [[ $platform == 'linux' ]]; then
