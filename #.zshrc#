@@ -1,4 +1,9 @@
-alias rod="cd "
+
+
+alias jim="op  /home/conor/Dropbox/07*/b*/s*"
+alias rod="cd /home/conor/Dropbox/01_essay/phase_mask_rodier"
+alias say2='echo "$1" | espeak -s 120 2>/dev/null'
+
 alias cor="de; cd coronag*"
 alias drop="cd ~/Dropbox"
 alias laue="op \"https://www.facebook.com/groups/167565493829213/167565883829174/\""
@@ -26,19 +31,6 @@ elif [[ "$unamestr" == 'Darwin' ]]; then
    platform='freebsd'
    echo "b";
 fi
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 if [[ $platform == 'linux' ]]; then
@@ -140,9 +132,13 @@ alias c="pbcopy"
 alias v="pbpaste -o"
 
 alias sl="clc;ls -1"
-alias SL="clc;ls -1"
+alias SL="clc;ls"
+alias LS="clc;ls"
+alias sls="clc;ls"
+alias lss="clc;ls"
+alias sll="clc;ls"
 
-alias lc="clc"
+alias lc="clc;"
 alias dow="~/Downloads"
 alias de="~/Desktop"
 alias count="find . -type f | wc -l"

@@ -1,3 +1,10 @@
+alias cir="op \"http://lushprojects.com/circuitjs/circuitjs.html\""
+alias ha="cd ~/Desk*/hann*/th*"
+alias z="zsh "
+alias tra="cd ~/Dro*/01_es*/tra*"
+alias fry="cd ~/Drop*/07*/hann*"
+
+alias jim="op  /home/conor/Dropbox/07*/b*/s*"
 alias rod="cd /home/conor/Dropbox/01_essay/phase_mask_rodier"
 alias say2='echo "$1" | espeak -s 120 2>/dev/null'
 
@@ -129,9 +136,13 @@ alias c="pbcopy"
 alias v="pbpaste -o"
 
 alias sl="clc;ls -1"
-alias SL="clc;ls -1"
+alias SL="clc;ls"
+alias LS="clc;ls"
+alias sls="clc;ls"
+alias lss="clc;ls"
+alias sll="clc;ls"
 
-alias lc="clc"
+alias lc="clc;"
 alias dow="~/Downloads"
 alias de="~/Desktop"
 alias count="find . -type f | wc -l"
