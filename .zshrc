@@ -1,3 +1,5 @@
+alias ss="du -sh "
+
 alias cir="op \"http://lushprojects.com/circuitjs/circuitjs.html\""
 alias ha="cd ~/Desk*/hann*/th*"
 alias z="zsh "
