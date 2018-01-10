@@ -1,3 +1,4 @@
+alias hv="de; cd ./hvass/*"
 alias cir="op \"http://lushprojects.com/circuitjs/circuitjs.html\""
 alias ha="cd ~/Desk*/hann*/th*"
 alias z="zsh "
