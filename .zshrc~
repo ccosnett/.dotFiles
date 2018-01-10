@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+
 alias hv="de; cd ./hvass/*"
-=======
+
 alias ss="du -sh "
 
->>>>>>> 21c0c4aeb30df559754addd0591c40a0242d39c4
+
 alias cir="op \"http://lushprojects.com/circuitjs/circuitjs.html\""
 alias ha="cd ~/Desk*/hann*/th*"
 alias z="zsh "

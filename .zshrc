@@ -1,4 +1,4 @@
-
+alias down="dow"
 alias hv="de; cd ./hvass/*"
 
 alias ss="du -sh "
