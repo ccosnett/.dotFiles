@@ -1,3 +1,6 @@
+export PATH="/home/conor/anaconda2/bin:$PATH"
+alias down="cd ~/Downloads"
+
 alias ss="du -sh "
 
 alias cir="op \"http://lushprojects.com/circuitjs/circuitjs.html\""
@@ -86,6 +89,9 @@ xmodmap  ~/.Xmodmap
 export PATH=/usr/local/cuda-8.0/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH
 
+
+export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 #_____________________________TMUX__________________________bk4asKcV
 #tmux
 alias kee="tmux set-option -g prefix \"M-q\""
@@ -114,6 +120,7 @@ fl;
 alias cl="clear"
 alias tar2="tar jxf"
 alias tar1="tar -xvzf"
+alias gput1="watch -n 1 nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader"
 alias gput="watch -n 5 nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader"
 alias e="exit"
 
