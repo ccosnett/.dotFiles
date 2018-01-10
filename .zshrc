@@ -1,3 +1,4 @@
+alias ss1="ssh cosnett@192.168.1.8"
 export PATH="/home/cosnett/anaconda2/bin:$PATH"
 export PATH="/home/conor/anaconda2/bin:$PATH"
 alias down="cd ~/Downloads"
