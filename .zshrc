@@ -1,3 +1,4 @@
+export PATH="/home/cosnett/anaconda2/bin:$PATH"
 export PATH="/home/conor/anaconda2/bin:$PATH"
 alias down="cd ~/Downloads"
 alias down="dow"
