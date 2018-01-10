@@ -235,13 +235,13 @@ amaz()
 
 
 #_____________________________TENSOR_FLOW_________________________________
-#tf()
-#{
-#    cd ~/anaconda/envs;
-#    source deactivate tensorflow;
-#    source activate tensorflow;
-#    pymes;
-#}
+tf()
+{
+    cd ~/anaconda/envs;
+    source deactivate tensorflow;
+    source activate tensorflow;
+    pymes;
+}
 #_________________________________________________________________________
 
 
