@@ -1,10 +1,8 @@
-<<<<<<< HEAD
 export PATH="/home/conor/anaconda2/bin:$PATH"
 alias down="cd ~/Downloads"
-=======
 alias down="dow"
 alias hv="de; cd ./hvass/*"
->>>>>>> 03875a5797363d1c783e048751699c9083b62ba2
+
 
 alias ss="du -sh "
 
