@@ -1,4 +1,20 @@
 
+alias hv="de; cd ./hvass/*"
+
+alias ss="du -sh "
+
+
+alias cir="op \"http://lushprojects.com/circuitjs/circuitjs.html\""
+alias ha="cd ~/Desk*/hann*/th*"
+alias z="zsh "
+alias tra="cd ~/Dro*/01_es*/tra*"
+alias fry="cd ~/Drop*/07*/hann*"
+
+alias jim="op  /home/conor/Dropbox/07*/b*/s*"
+alias rod="cd /home/conor/Dropbox/01_essay/phase_mask_rodier"
+alias say2='echo "$1" | espeak -s 120 2>/dev/null'
+
+alias cor="de; cd coronag*"
 alias drop="cd ~/Dropbox"
 alias laue="op \"https://www.facebook.com/groups/167565493829213/167565883829174/\""
 alias G="cd ~/Drop*/09_*/G/"
@@ -126,9 +142,13 @@ alias c="pbcopy"
 alias v="pbpaste -o"
 
 alias sl="clc;ls -1"
-alias SL="clc;ls -1"
+alias SL="clc;ls"
+alias LS="clc;ls"
+alias sls="clc;ls"
+alias lss="clc;ls"
+alias sll="clc;ls"
 
-alias lc="clc"
+alias lc="clc;"
 alias dow="~/Downloads"
 alias de="~/Desktop"
 alias count="find . -type f | wc -l"
@@ -221,13 +241,13 @@ amaz()
 
 
 #_____________________________TENSOR_FLOW_________________________________
-#tf()
-#{
-#    cd ~/anaconda/envs;
-#    source deactivate tensorflow;
-#    source activate tensorflow;
-#    pymes;
-#}
+tf()
+{
+    cd ~/anaconda/envs;
+    source deactivate tensorflow;
+    source activate tensorflow;
+    pymes;
+}
 #_________________________________________________________________________
 
 
@@ -460,7 +480,7 @@ alias sa="open -a safari $1"
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
-alias irene="https://www.pornhub.com/view_video.php?viewkey=422598990"
+alias irene="op \"https://www.pornhub.com/view_video.php?viewkey=422598990\""
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
 #ZSH_THEME="agnoster"
