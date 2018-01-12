@@ -1,6 +1,8 @@
 alias op1="jupyter-notebook --no-browser --ip 192.168.1.8 --port 8888"
+alias op2="jupyter-notebook --no-browser --ip 192.168.1.9 --port 8888"
 alias prt="op \"http://192.168.1.8:8888/?token=2388148eb254c29a6ec1c49b514c890209f9689cc253aa2a\""
 alias ss1="ssh cosnett@192.168.1.8"
+alias ss2="ssh conor@192.168.1.9"
 export PATH="/home/cosnett/anaconda2/bin:$PATH"
 export PATH="/home/conor/anaconda2/bin:$PATH"
 alias down="cd ~/Downloads"
