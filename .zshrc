@@ -1,6 +1,6 @@
 alias gpuw="watch --color -n1.0 gpustat --color -cpP"
 alias op1="jupyter-notebook --no-browser --ip 192.168.1.8 --port 8888"
-alias op2="de; source activate python_3_environment; jupyter-notebook --no-browser --ip 192.168.1.9 --port 8888"
+alias op2="de;cd ten*; source activate python_3_environment; jupyter-notebook --no-browser --ip 192.168.1.9 --port 8888"
 alias ss1="ssh cosnett@192.168.1.8"
 alias ss2="ssh conor@192.168.1.9"
 export PATH="/home/cosnett/anaconda2/bin:$PATH"
