@@ -1,3 +1,4 @@
+
 alias gpuw="watch --color -n1.0 gpustat --color -cpP"
 alias op1="de;cd Ten*; source activate python_3_n;jupyter-notebook --no-browser --ip 192.168.1.8 --port 8888"
 alias op3=" source activate python_3_n;jupyter-notebook --no-browser --ip 192.168.1.8 --port 8888"
@@ -65,10 +66,11 @@ elif [[ $platform == 'freebsd' ]]; then
    alias pex="cd ~/yoricksPackages/*/mes/experimenter"
 fi
 
-s()
+cdl()
 {
+  cd $1;
   clear;
-  say $1
+  ls;
 }
 
 S()
