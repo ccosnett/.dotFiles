@@ -65,14 +65,7 @@ elif [[ $platform == 'freebsd' ]]; then
    alias pbpaste='pbpaste'
    alias pex="cd ~/yoricksPackages/*/mes/experimenter"
 fi
-
-alias sl="clc;ls -1"
-
-cdl()
-{
-  cd $1;
-  clear;
-  sl;
+;
 }
 
 S()
