@@ -180,7 +180,7 @@ alias keyb="cd /Applications/Mathematica.app/Contents/SystemFiles/FrontEnd/TextR
 
 alias libgen="op http://libgen.io/"
 alias bb="op \"https://nuigalway.blackboard.com/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_1_1\""
-alias tt="op \"https://www.facebook.com/photo.php?fbid=696964713829012&set=gm.169329346962851&type=3&theater&ifg=1\""
+alias tt="op ~/Dropbox/02*/tim* "
 alias coi="op https://ethermine.org/miners/D37E8d2F0b02C15c7b9d6A6773dC5Ec98F6517C8/"
 alias ggg="op \"https://github.com/ccosnett?tab=repositories\""
 alias jax="op http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm#varepsilon"
