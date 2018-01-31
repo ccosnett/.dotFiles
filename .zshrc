@@ -452,7 +452,8 @@ ce()
 {
     /Applications/Mathematica.app/Contents/MacOS/WolframKernel -script $1
 }
-alias mm="/Applications/Mathematica.app/Contents/MacOS/WolframKernel" 
+alias mm="/Applications/Mathematica.app/Contents/MacOS/WolframKernel"
+alias m="/home/conor/mathematica/WolframScript" 
 #***********************************************************************
 
 #_____________________________EMACS___________________________________-
@@ -646,7 +647,7 @@ alias linear="~/Documents/subcritical/MATLAB/MACHINE*/Linear_Algebra"
 
 alias gss="cd /Users/johncosnett/Desk*/Grant*/"
 
-alias m="cd /Volumes/SAMSUNG/memories/"
+
 
 alias jjj="cd /Users/johncosnett/Documents/uNi\ SUBJECTS/MP345\ -\ MathMeth\ 1/kahnCademy/Exact/jjj"
 
