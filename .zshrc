@@ -1,4 +1,7 @@
-
+alias fin="find . -type f -size -4096c"
+alias wolf="pex; cd ./wolf*"
+alias cts="w \"ls -l *s| wc -l\"";
+alias ctg="w \"ls -l *g| wc -l\"";
 alias gpuw="watch --color -n1.0 gpustat --color -cpP"
 alias op1="de;cd Ten*; source activate python_3_n;jupyter-notebook --no-browser --ip 192.168.1.8 --port 8888"
 alias op3=" source activate python_3_n;jupyter-notebook --no-browser --ip 192.168.1.8 --port 8888"
