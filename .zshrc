@@ -1,3 +1,5 @@
+
+alias cros="pex; cd ../cross"
 alias fin="find . -type f -size -4096c"
 alias wolf="pex; cd ./wolf*"
 alias cts="w \"ls -l *s| wc -l\"";
