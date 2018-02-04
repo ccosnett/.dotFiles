@@ -1,5 +1,5 @@
 
-alias yt="https://www.youtube.com/"
+alias yt="op \"https://www.youtube.com/\""
 alias cmac="cd /home/conor/Desktop/conor_mc_donaghs_plans; say \"we are now in conor mac donaghs folder\""
 alias fcros="face; cd ./cross"
 alias cros="pex; cd ../cross/test*"
