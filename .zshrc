@@ -1,5 +1,6 @@
 
-alias cros="pex; cd ../cross"
+alias fcros="face; cd ./cross"
+alias cros="pex; cd ../cross/test*"
 alias fin="find . -type f -size -4096c"
 alias wolf="pex; cd ./wolf*"
 alias cts="w \"ls -l *s| wc -l\"";
@@ -451,6 +452,8 @@ alias mmaSetup="cd /Applications/Mathematica.app/Contents/SystemFiles/FrontEnd/
 TextResources/Macintosh/"
 alias face="cd $HOME/face"
 alias init="au /Users/johncosnett/Library/Mathematica/Kernel/init.m"
+alias initl="au ~/.Mathematica/Kernel/init.m"
+
 alias mma="/Applications/Mathematica.app/Contents/MacOS/MathKernel"
 # /Applications/Mathematica.app/Contents/MacOS/WolframKernel -script file.wl
 ce()
