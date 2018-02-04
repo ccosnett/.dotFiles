@@ -509,7 +509,7 @@ alias sa="open -a safari $1"
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
-alias irene="op \"https://www.pornhub.com/view_video.php?viewkey=422598990\""
+
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
 #ZSH_THEME="agnoster"
