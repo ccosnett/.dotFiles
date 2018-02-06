@@ -1,4 +1,5 @@
 
+alias te="de; cd ./TEX*"
 alias nan="cd ~/Dropbox/04*"
 alias yt="op \"https://www.youtube.com/\""
 alias cmac="cd /home/conor/Desktop/conor_mc_donaghs_plans; say \"we are now in conor mac donaghs folder\""
