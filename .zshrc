@@ -1,4 +1,5 @@
 
+alias opt="cd ~/Drop*/03*/"
 alias te="de; cd ./TEX*"
 alias nan="cd ~/Dropbox/04*"
 alias yt="op \"https://www.youtube.com/\""
