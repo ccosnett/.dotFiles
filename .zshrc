@@ -696,7 +696,7 @@ hom()
 
 vid()
 {
-	cd /Users/johncosnett/Pictures/Photos\ Library.photoslibrary/Masters/2017/
+	cd /Users/johncosnett/Pictures/Photos\ Library.photoslibrary/Masters/2018/
 }
 
 calc()
