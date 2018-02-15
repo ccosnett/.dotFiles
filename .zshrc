@@ -1,8 +1,9 @@
+
 alias laser="cd ~/Drop*/02*/ASS*"
 alias opt="cd ~/Drop*/03*/"
 alias te="de; cd ./TEX*"
 alias nan="cd ~/Dropbox/04*"
-alias yt="op \"https://www.youtube.com/\""
+alias yt="op \"https://www.youtube.com/channel/UCBinIDmOHSjm55pG0FDyXNw?view_as=subscriber\""
 alias cmac="cd /home/conor/Desktop/conor_mc_donaghs_plans; say \"we are now in conor mac donaghs folder\""
 alias fcros="face; cd ./cross"
 alias cros="pex; cd ../cross/test*"
