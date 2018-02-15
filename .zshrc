@@ -1,4 +1,5 @@
 
+alias gr_spektor="op \"https://www.facebook.com/groups/463678930633772/\""
 alias laser="cd ~/Drop*/02*/ASS*"
 alias opt="cd ~/Drop*/03*/"
 alias te="de; cd ./TEX*"
