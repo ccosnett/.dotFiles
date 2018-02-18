@@ -1,4 +1,5 @@
 
+
 alias gr_spektor="op \"https://www.facebook.com/groups/463678930633772/\""
 alias laser="cd ~/Drop*/02*/ASS*"
 alias opt="cd ~/Drop*/03*/"
@@ -314,7 +315,7 @@ alias pymes="cd ~/cube*/pymes"
 alias paper2="cd /Users/johncosnett/Desktop/demo/paper2"
 alias dot="cd ~/.dotFiles/"
 alias prof="cd ~/Desktop/prof"
-alias clu="rm *~; rm *fits;rm *#*; chmod 777 *"
+alias clu="rm *~;rm *#*; chmod 777 *"
 #_____________________________YORICK__________________________-
 
 alias clearpex="pex; clu; rm plan*;tk"
