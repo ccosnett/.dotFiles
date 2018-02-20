@@ -1,5 +1,5 @@
 
-
+alias swig="drop; cd 00*; cd *PORT*;cd SWIG"
 alias gr_spektor="op \"https://www.facebook.com/groups/463678930633772/\""
 alias laser="cd ~/Drop*/02*/ASS*"
 alias opt="cd ~/Drop*/03*/"
