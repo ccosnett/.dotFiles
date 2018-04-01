@@ -1,5 +1,6 @@
 
-
+alias yor=""
+alias pr="cd ~/Drop*/0000*"
 alias el="cd ~/el/"
 alias swig="drop; cd 00*; cd *PORT*;cd SWIG"
 alias gr_spektor="op \"https://www.facebook.com/groups/463678930633772/\""
@@ -80,6 +81,7 @@ elif [[ $platform == 'freebsd' ]]; then
    alias pbcopy='pbcopy'
    alias pbpaste='pbpaste'
    alias pex="cd ~/yoricksPackages/*/mes/experimenter"
+   alias yb=""
 fi
 
 alias sl="clc;ls -1"

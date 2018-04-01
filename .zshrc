@@ -1,4 +1,6 @@
 
+alias yor=""
+alias pr="cd ~/Drop*/0000*"
 alias el="cd ~/el/"
 alias swig="drop; cd 00*; cd *PORT*;cd SWIG"
 alias gr_spektor="op \"https://www.facebook.com/groups/463678930633772/\""
@@ -74,11 +76,13 @@ if [[ $platform == 'linux' ]]; then
    alias pbcopy='xclip -selection clipboard'
    alias pbpaste='xclip -selection clipboard -o'
    alias pex="cd ~/datacontainer1/*/mes/experimenter"
+   alias yb="/home/conor/datacontainer1/04_yorick/relocate/bin/yorick -batch "   
 elif [[ $platform == 'freebsd' ]]; then
    alias op='open '
    alias pbcopy='pbcopy'
    alias pbpaste='pbpaste'
    alias pex="cd ~/yoricksPackages/*/mes/experimenter"
+   alias yb="~/yoricksPackages/04_yorick/relocate/bin/yorick -batch "   
 fi
 
 alias sl="clc;ls -1"
@@ -91,6 +95,11 @@ cdl()
 }
 
 S()
+{
+  clear;
+  say $1
+}
+s()
 {
   clear;
   say $1
@@ -323,7 +332,7 @@ alias clearpex="pex; clu; rm plan*;tk"
 alias pexclear="pex; clu; rm plan*;tk"
 alias p="pexclear"
 alias cre="tk; /Users/johncosnett/Documents/Wolfram\ Mathematica/face/Zscripts/createSessions.sh; tmux ls"
-alias yb="/home/conor/datacontainer1/04_yorick/relocate/bin/yorick -batch ";
+#alias yb="/home/conor/datacontainer1/04_yorick/relocate/bin/yorick -batch ";
 alias pexy="cd ~/*/*/mes";
 
 alias yyy="clc;cd ~/Dropbox/yorick_and_stuff/"
