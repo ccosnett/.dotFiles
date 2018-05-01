@@ -1,4 +1,6 @@
-
+alias gmai="op \"https://mail.google.com/mail/u/1/#inbox\"";
+alias exam="op https://www.facebook.com/groups/347574949084653/"
+alias sp="cd /Users/johncosnett/Desktop/lectures_2018/speakeasy"
 alias yor=""
 alias pr="cd ~/Drop*/0000*"
 alias el="cd ~/el/"
@@ -219,7 +221,7 @@ alias mai="op \"https://outlook.office.com/owa/?realm=nuigalway.ie&exsvurl=1&ll-
 alias emai="xdg-open \"https://webmail.eir.ie/zimbra/mail#1\""
 alias groups="op \"https://www.facebook.com/groups/?category=groups\""
 alias fa="op https://www.facebook.com/messages/"
-alias gmai="ope  \"https://mail.google.com/mail/u/0/#inbox\""
+#alias gmai="ope  \"https://mail.google.com/mail/u/0/#inbox\""
 alias liin="ope \"https://www.linkedin.com/feed/\""
 alias mux="xdg-open http://www.dayid.org/comp/tm.html"
 alias mux2="xdg-open https://github.com/JohnCosnett/face/blob/master/Zscripts/createSessions.sh "
