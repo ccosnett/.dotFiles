@@ -1,3 +1,4 @@
+alias p4="cd ~/Desktop/pro*4"
 alias gmai="op \"https://mail.google.com/mail/u/1/#inbox\"";
 alias exam="op https://www.facebook.com/groups/347574949084653/"
 alias sp="cd /Users/johncosnett/Desktop/lectures_2018/speakeasy"
@@ -22,7 +23,8 @@ alias gpuw="watch --color -n1.0 gpustat --color -cpP"
 alias op1="de;cd Ten*; source activate python_3_n;jupyter-notebook --no-browser --ip 192.168.1.8 --port 8888"
 alias op3=" source activate python_3_n;jupyter-notebook --no-browser --ip 192.168.1.8 --port 8888"
 alias op2="de;cd Ten*; source activate python_3_environment; jupyter-notebook --no-browser --ip 192.168.1.13 --port 8888"
-alias ss1="ssh cosnett@192.168.1.8"
+
+alias ss1="ssh conor@192.168.1.8"
 alias ss2="ssh conor@192.168.1.13"
 export PATH="/home/cosnett/anaconda2/bin:$PATH"
 export PATH="/home/conor/anaconda2/bin:$PATH"
