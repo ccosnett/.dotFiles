@@ -1,3 +1,7 @@
+gnome-keyring-daemon &
+
+alias chrom="chromium-browser"
+alias tara="cd /home/conor/face/cross/"
 alias p4="cd ~/Desktop/pro*4"
 alias gmai="op \"https://mail.google.com/mail/u/1/#inbox\"";
 alias exam="op https://www.facebook.com/groups/347574949084653/"
