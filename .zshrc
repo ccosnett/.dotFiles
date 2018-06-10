@@ -1,5 +1,10 @@
 gnome-keyring-daemon &
 
+
+export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
+
+
+
 alias int="cd /home/conor/Dropbox/intern_2_the_legacy"
 alias chrom="chromium-browser"
 alias tara="cd /home/conor/face/cross/"
@@ -148,6 +153,10 @@ alias kee="tmux set-option -g prefix \"M-q\""
 alias keex="xmodmap  ~/.Xmodmap"
 
 #_____________________________SYSTEM__________________________bk4asKcV
+
+#list contents of directory, in order of date (at top) and size in megabytes
+alias lst="ls -lt --block-size=MB"
+
 
 mine(){
     cd /usr/local/clay*;
