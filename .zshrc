@@ -5,7 +5,7 @@ export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
 
 
 
-alias int="cd /home/conor/Dropbox/intern_2_the_legacy"
+alias int="cd ~/Dropbox/intern_2_the_legacy"
 alias chrom="chromium-browser"
 alias tara="cd /home/conor/face/cross/"
 alias p4="cd ~/Desktop/pro*4"
