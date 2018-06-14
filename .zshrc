@@ -1,5 +1,12 @@
+
 gnome-keyring-daemon &
 
+
+alias keyevent="cd /home/conor/mathematica/SystemFiles/FrontEnd/TextResources/X"
+alias specs="op /home/conor/bagofyokes/clara*pdf"
+alias rda="de; cd real*"
+alias ds99="~/Documents/ds9 "
+alias ky="op http://xahlee.info/linux/linux_keyboard_tools.html"
 alias int="cd /home/conor/Dropbox/intern_2_the_legacy"
 alias chrom="chromium-browser"
 alias tara="cd /home/conor/face/cross/"
@@ -28,6 +35,8 @@ alias gpuw="watch --color -n1.0 gpustat --color -cpP"
 alias op1="de;cd Ten*; source activate python_3_n;jupyter-notebook --no-browser --ip 192.168.1.8 --port 8888"
 alias op3=" source activate python_3_n;jupyter-notebook --no-browser --ip 192.168.1.8 --port 8888"
 alias op2="de;cd Ten*; source activate python_3_environment; jupyter-notebook --no-browser --ip 192.168.1.13 --port 8888"
+
+alias op4="de;cd Ten*; source activate python_3_environment; jupyter-notebook"
 
 alias ss1="ssh conor@192.168.1.8"
 alias ss2="ssh conor@192.168.1.13"
