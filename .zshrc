@@ -2,6 +2,8 @@
 gnome-keyring-daemon &
 
 
+alias gomez="op /home/conor/Dropbox/intern_2_the_legacy/papers/Gomez_18.pdf"
+alias fiona="cros;cd training_set_1/"
 alias keyevent="cd /home/conor/mathematica/SystemFiles/FrontEnd/TextResources/X"
 alias specs="op /home/conor/bagofyokes/clara*pdf"
 alias rda="de; cd real*"
