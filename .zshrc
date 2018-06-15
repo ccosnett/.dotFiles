@@ -1,7 +1,7 @@
 
 gnome-keyring-daemon &
 
-
+ VISUAL=emacs; export VISUAL EDITOR=emacs; export EDITOR
 alias gomez="op /home/conor/Dropbox/intern_2_the_legacy/papers/Gomez_18.pdf"
 alias fiona="cros;cd training_set_1/"
 alias keyevent="cd /home/conor/mathematica/SystemFiles/FrontEnd/TextResources/X"
@@ -489,8 +489,8 @@ gitin()
 alias mmaSetup="cd /Applications/Mathematica.app/Contents/SystemFiles/FrontEnd/
 TextResources/Macintosh/"
 alias face="cd $HOME/face"
-alias init="au /Users/johncosnett/Library/Mathematica/Kernel/init.m"
-alias initl="au ~/.Mathematica/Kernel/init.m"
+#alias init="au /Users/johncosnett/Library/Mathematica/Kernel/init.m"
+alias init="au ~/.Mathematica/Kernel/init.m"
 
 alias mma="/Applications/Mathematica.app/Contents/MacOS/MathKernel"
 # /Applications/Mathematica.app/Contents/MacOS/WolframKernel -script file.wl
