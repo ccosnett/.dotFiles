@@ -516,7 +516,7 @@ au()
 
 ua()
 {
-    open -a emacs ~/.emacs.d/init.el
+    au ~/.emacs.d/init.el
 }
 
 
