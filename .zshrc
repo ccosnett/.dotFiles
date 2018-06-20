@@ -4,7 +4,7 @@ alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir
 gnome-keyring-daemon &
 
 
-<<<<<<< HEAD
+
 alias esth="op \"https://www.youtube.com/watch?v=Ei88J4lERbk&lc=UgilSXwuGuc9o3gCoAEC.8NNc6N3uJRz8Rp8YF__K8P\""
 VISUAL=emacs; export VISUAL EDITOR=emacs; export EDITOR
 alias gomez="op /home/conor/Dropbox/intern_2_the_legacy/papers/Gomez_18.pdf"
@@ -15,13 +15,13 @@ alias rda="de; cd real*"
 alias ds99="~/Documents/ds9 "
 alias ky="op http://xahlee.info/linux/linux_keyboard_tools.html"
 alias int="cd /home/conor/Dropbox/intern_2_the_legacy"
-=======
+
 export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
 
 
 
 alias int="cd ~/Dropbox/intern_2_the_legacy"
->>>>>>> 4e22f76afb1174480c22cc20bbaf096583175391
+
 alias chrom="chromium-browser"
 alias tara="cd /home/conor/face/cross/"
 alias p4="cd ~/Desktop/pro*4"
