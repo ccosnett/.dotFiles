@@ -20,7 +20,7 @@ export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
 
 
 
-alias int="cd ~/Dropbox/intern_2_the_legacy"
+alias int="cd ~/Dropbox/intern_2_the_legacy/REPORT_2/"
 
 alias chrom="chromium-browser"
 alias tara="cd /home/conor/face/cross/"
@@ -40,7 +40,7 @@ alias nan="cd ~/Dropbox/04*"
 alias yt="op \"https://www.youtube.com/channel/UCBinIDmOHSjm55pG0FDyXNw/videos?view_as=subscriber\"";
 alias cmac="cd /home/conor/Desktop/conor_mc_donaghs_plans; say \"we are now in conor mac donaghs folder\""
 alias fcros="face; cd ./cross"
-alias cros="pex; cd ../cross/test_bu*"
+alias cros="cd ~/datacontainer1/11_pex/mes/cross/test_bucket"
 alias fin="find . -type f -size -4096c"
 alias wolf="pex; cd ./wolf*"
 alias cts="w \"ls -l *s| wc -l\"";
