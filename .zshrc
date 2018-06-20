@@ -1,7 +1,11 @@
+alias p2="/media/conor/partitionTwo"
+alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
 
 gnome-keyring-daemon &
 
- VISUAL=emacs; export VISUAL EDITOR=emacs; export EDITOR
+
+alias esth="op \"https://www.youtube.com/watch?v=Ei88J4lERbk&lc=UgilSXwuGuc9o3gCoAEC.8NNc6N3uJRz8Rp8YF__K8P\""
+VISUAL=emacs; export VISUAL EDITOR=emacs; export EDITOR
 alias gomez="op /home/conor/Dropbox/intern_2_the_legacy/papers/Gomez_18.pdf"
 alias fiona="cros;cd training_set_1/"
 alias keyevent="cd /home/conor/mathematica/SystemFiles/FrontEnd/TextResources/X"
@@ -32,6 +36,7 @@ alias cros="pex; cd ../cross/test_bu*"
 alias fin="find . -type f -size -4096c"
 alias wolf="pex; cd ./wolf*"
 alias cts="w \"ls -l *s| wc -l\"";
+alias wsensors="w \"sensors\"";
 alias ctg="w \"ls -l *g| wc -l\"";
 alias gpuw="watch --color -n1.0 gpustat --color -cpP"
 alias op1="de;cd Ten*; source activate python_3_n;jupyter-notebook --no-browser --ip 192.168.1.8 --port 8888"
@@ -92,17 +97,18 @@ fi
 
 
 if [[ $platform == 'linux' ]]; then
-   alias op='xdg-open '
-   alias pbcopy='xclip -selection clipboard'
-   alias pbpaste='xclip -selection clipboard -o'
-   alias pex="cd ~/datacontainer1/*/mes/experimenter"
-   alias yb="/home/conor/datacontainer1/04_yorick/relocate/bin/yorick -batch "   
+    alias op='xdg-open '
+    alias OP='xdg-open '
+    alias pbcopy='xclip -selection clipboard'
+    alias pbpaste='xclip -selection clipboard -o'
+    alias pex="cd ~/datacontainer1/*/mes/experimenter"
+    alias yb="/home/conor/datacontainer1/04_yorick/relocate/bin/yorick -batch "   
 elif [[ $platform == 'freebsd' ]]; then
-   alias op='open '
-   alias pbcopy='pbcopy'
-   alias pbpaste='pbpaste'
-   alias pex="cd ~/yoricksPackages/*/mes/experimenter"
-   alias yb="~/yoricksPackages/04_yorick/relocate/bin/yorick -batch "   
+    alias op='open '
+    alias pbcopy='pbcopy'
+    alias pbpaste='pbpaste'
+    alias pex="cd ~/yoricksPackages/*/mes/experimenter"
+    alias yb="~/yoricksPackages/04_yorick/relocate/bin/yorick -batch "   
 fi
 
 alias sl="clc;ls -1"
