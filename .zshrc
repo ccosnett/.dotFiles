@@ -4,7 +4,7 @@ alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir
 gnome-keyring-daemon &
 
 
-
+alias esth2="op \"https://www.youtube.com/watch?v=p5FvpgiRqB0\""
 alias esth="op \"https://www.youtube.com/watch?v=Ei88J4lERbk&lc=UgilSXwuGuc9o3gCoAEC.8NNc6N3uJRz8Rp8YF__K8P\""
 VISUAL=emacs; export VISUAL EDITOR=emacs; export EDITOR
 alias gomez="op /home/conor/Dropbox/intern_2_the_legacy/papers/Gomez_18.pdf"
