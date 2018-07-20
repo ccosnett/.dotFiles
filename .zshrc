@@ -1,12 +1,24 @@
+
+
+alias int="cd ~/Dropbox/intern_2_the_legacy/05_REPORT*/"
+alias f="cd /home/conor/Programs/fits_forge"
+
+#************************************ new-epoch ***************************************** 14 july 18
+
+alias ten="drop; cd Ten*"
+alias potf="cd ~/Drop*/int*/00* "
+alias a="cd ~/Documents/AUGMENT/ENG*";
+alias pap="op http://www.1962paper.org/web.html"
+alias devaney="cd /home/conor/Dropbox/intern_2_the_legacy/00_PAPERS_OF_THE_FIELD/DEVANEY_2018"
 alias p2="/media/conor/partitionTwo"
 alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
 
 gnome-keyring-daemon &
 
-
 alias esth2="op \"https://www.youtube.com/watch?v=p5FvpgiRqB0\""
 alias esth="op \"https://www.youtube.com/watch?v=Ei88J4lERbk&lc=UgilSXwuGuc9o3gCoAEC.8NNc6N3uJRz8Rp8YF__K8P\""
 VISUAL=emacs; export VISUAL EDITOR=emacs; export EDITOR
+
 alias gomez="op /home/conor/Dropbox/intern_2_the_legacy/papers/Gomez_18.pdf"
 alias fiona="cros;cd training_set_1/"
 alias keyevent="cd /home/conor/mathematica/SystemFiles/FrontEnd/TextResources/X"
@@ -14,15 +26,14 @@ alias specs="op /home/conor/bagofyokes/clara*pdf"
 alias rda="de; cd real*"
 alias ds99="~/Documents/ds9 "
 alias ky="op http://xahlee.info/linux/linux_keyboard_tools.html"
-alias int="cd /home/conor/Dropbox/intern_2_the_legacy"
 
-export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
+alias int2="cd ~/Dropbox/intern_2_the_legacy/02_REPORT_2/"
 
+#export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
 
-
-alias int="cd ~/Dropbox/intern_2_the_legacy/REPORT_2/"
-
-alias chrom="chromium-browser"
+alias int4="cd ~/Dropbox/intern_2_the_legacy/04_REPORT*/"
+alias int3="cd ~/Dropbox/intern_2_the_legacy/03_REPORT_3/"
+alias chrom="chromium-browser "
 alias tara="cd /home/conor/face/cross/"
 alias p4="cd ~/Desktop/pro*4"
 alias gmai="op \"https://mail.google.com/mail/u/1/#inbox\"";
@@ -52,6 +63,7 @@ alias op3=" source activate python_3_n;jupyter-notebook --no-browser --ip 192.16
 alias op2="de;cd Ten*; source activate python_3_environment; jupyter-notebook --no-browser --ip 192.168.1.13 --port 8888"
 
 alias op4="de;cd Ten*; source activate python_3_environment; jupyter-notebook"
+alias op5="source activate python_3_environment; jupyter-notebook "
 
 alias ss1="ssh conor@192.168.1.8"
 alias ss2="ssh conor@192.168.1.13"
