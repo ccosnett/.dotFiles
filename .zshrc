@@ -1,5 +1,6 @@
 
 
+alias re="cd /home/conor/Dropbox/01_exo_project/real_data_and_shite"
 alias int="cd ~/Dropbox/intern_2_the_legacy/05_REPORT*/"
 alias f="cd /home/conor/Programs/fits_forge"
 
@@ -903,3 +904,4 @@ if [ -f '/Users/johncosnett/google-cloud-sdk/path.zsh.inc' ]; then source '/User
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/johncosnett/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/johncosnett/google-cloud-sdk/completion.zsh.inc'; fi
+#echo "you have entered the text editor"
