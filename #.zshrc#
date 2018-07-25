@@ -1,15 +1,8 @@
-alias eph="op /home/conor/Dropbox/TensorFlow-Tutorials/44*"
-alias metamorphosis="op \"https://www.youtube.com/watch?v=M73x3O7dhmg\""
-alias tmp="op /home/conor/Dropbox/00_LIB/00_DEEP_LEARNING_goodfellow/7.4*"
-alias augm="cd /home/conor/Docume*/AUG*/TM*"
-alias aim="cd /media/conor/aim"
-alias ait="cd /media/conor/aim/datacontainer1/11_pex/mes/cross/test_bucket";
-alias dataout="/home/conor/Dropbox/intern_2_the_legacy/00_PAPERS_OF_THE_FIELD/00_data_folder/06_median_subtracted_re"
+
 alias t="clc;tree"
-alias tt="watch \"tree\""
 alias data="cd /home/conor/Dropbox/intern_2_the_legacy/00_PAPERS_OF_THE_FIELD/00_data_folder"
 alias re="cd /home/conor/Dropbox/01_exo_project/real_data_and_shite"
-alias int="cd ~/Dropbox/intern_2_the_legacy/05_REPORT*/01*/04*R"
+alias int="cd ~/Dropbox/intern_2_the_legacy/05_REPORT*/01*"
 alias f="cd /home/conor/Programs/fits_forge"
 
 #************************************ new-epoch ***************************************** 14 july 18
@@ -24,8 +17,6 @@ alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir
 
 gnome-keyring-daemon &
 
-#************************************ music  ***************************************** 14 july 18
-alias hours="op \"https://www.youtube.com/watch?v=wsg73PzKzDA&t=1005s\""
 alias esth2="op \"https://www.youtube.com/watch?v=p5FvpgiRqB0\""
 alias esth="op \"https://www.youtube.com/watch?v=Ei88J4lERbk&lc=UgilSXwuGuc9o3gCoAEC.8NNc6N3uJRz8Rp8YF__K8P\""
 VISUAL=emacs; export VISUAL EDITOR=emacs; export EDITOR
@@ -267,7 +258,7 @@ alias keyb="cd /Applications/Mathematica.app/Contents/SystemFiles/FrontEnd/TextR
 
 alias libgen="op http://libgen.io/"
 alias bb="op \"https://nuigalway.blackboard.com/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_1_1\""
-
+alias tt="op ~/Dropbox/02*/tim* "
 alias coi="op https://ethermine.org/miners/D37E8d2F0b02C15c7b9d6A6773dC5Ec98F6517C8/"
 alias ggg="op \"https://github.com/ccosnett?tab=repositories\""
 alias jax="op http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm#varepsilon"
