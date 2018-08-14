@@ -1,3 +1,11 @@
+
+source /home/conor/Dropbox/03_the_paper/000_hyper_graph/hyperGraph.sh
+ 
+
+alias gomez="cd /home/conor/Dropbox/intern_2_the_legacy/00_PAPERS_OF_THE_FIELD/papers/Gomez_18.pdf"
+alias int="cd /home/conor/Dropbox/intern_2_the_legacy/06_THE_PAPER"
+alias dlg="op /home/conor/Dropbox/intern_2_the_legacy/00_PAPERS_OF_THE_FIELD/papers/DEEP*"
+alias etudes="op \"https://www.youtube.com/watch?v=hebUyOR6B2c\""
 alias eph="op /home/conor/Dropbox/TensorFlow-Tutorials/44*"
 alias metamorphosis="op \"https://www.youtube.com/watch?v=M73x3O7dhmg\""
 alias tmp="op /home/conor/Dropbox/00_LIB/00_DEEP_LEARNING_goodfellow/7.4*"
@@ -9,7 +17,7 @@ alias t="clc;tree"
 alias tt="watch \"tree\""
 alias data="cd /home/conor/Dropbox/intern_2_the_legacy/00_PAPERS_OF_THE_FIELD/00_data_folder"
 alias re="cd /home/conor/Dropbox/01_exo_project/real_data_and_shite"
-alias int="cd ~/Dropbox/intern_2_the_legacy/05_REPORT*/01*/04*R"
+
 alias f="cd /home/conor/Programs/fits_forge"
 
 #************************************ new-epoch ***************************************** 14 july 18
@@ -30,7 +38,7 @@ alias esth2="op \"https://www.youtube.com/watch?v=p5FvpgiRqB0\""
 alias esth="op \"https://www.youtube.com/watch?v=Ei88J4lERbk&lc=UgilSXwuGuc9o3gCoAEC.8NNc6N3uJRz8Rp8YF__K8P\""
 VISUAL=emacs; export VISUAL EDITOR=emacs; export EDITOR
 
-alias gomez="op /home/conor/Dropbox/intern_2_the_legacy/papers/Gomez_18.pdf"
+alias gomez="op /home/conor/Dropbox/intern_2_the_legacy/00_PAPERS_OF_THE_FIELD/papers/Gomez_18.pdf"
 alias fiona="cros;cd training_set_1/"
 alias keyevent="cd /home/conor/mathematica/SystemFiles/FrontEnd/TextResources/X"
 alias specs="op /home/conor/bagofyokes/clara*pdf"
@@ -75,7 +83,7 @@ alias op2="de;cd Ten*; source activate python_3_environment; jupyter-notebook --
 
 alias op4="de;cd Ten*; source activate python_3_environment; jupyter-notebook"
 alias op5="source activate python_3_environment; jupyter-notebook "
-
+alias sap3e="source activate python_3_environment" 
 alias ss1="ssh conor@192.168.1.8"
 alias ss2="ssh conor@192.168.1.13"
 export PATH="/home/cosnett/anaconda2/bin:$PATH"
