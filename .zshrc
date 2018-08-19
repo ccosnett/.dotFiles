@@ -1,9 +1,10 @@
 
-source /home/conor/Dropbox/03_the_paper/000_hyper_graph/hyperGraph.sh
+#source /home/conor/Dropbox/intern_2_the_legacy/06_THE_PAPER/03_the_paper/000_hyper_graph/hyperGraph.sh
+source /home/conor/Dropbox/intern_2_the_legacy/06_THE_PAPER/03_the_paper/000_hyper_graph/hyperGraph.sh
  
 
 alias gomez="cd /home/conor/Dropbox/intern_2_the_legacy/00_PAPERS_OF_THE_FIELD/papers/Gomez_18.pdf"
-alias int="cd /home/conor/Dropbox/intern_2_the_legacy/06_THE_PAPER"
+#alias int="cd /home/conor/Dropbox/intern_2_the_legacy/07*"
 alias dlg="op /home/conor/Dropbox/intern_2_the_legacy/00_PAPERS_OF_THE_FIELD/papers/DEEP*"
 alias etudes="op \"https://www.youtube.com/watch?v=hebUyOR6B2c\""
 alias eph="op /home/conor/Dropbox/TensorFlow-Tutorials/44*"
