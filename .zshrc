@@ -16,7 +16,7 @@ alias ait="cd /media/conor/aim/datacontainer1/11_pex/mes/cross/test_bucket";
 alias dataout="/home/conor/Dropbox/intern_2_the_legacy/00_PAPERS_OF_THE_FIELD/00_data_folder/06_median_subtracted_re"
 alias t="clc;tree"
 alias tt="watch \"tree\""
-alias data="cd /home/conor/Dropbox/intern_2_the_legacy/00_PAPERS_OF_THE_FIELD/00_data_folder"
+#alias data="cd /home/conor/Dropbox/intern_2_the_legacy/00_PAPERS_OF_THE_FIELD/00_data_folder"
 alias re="cd /home/conor/Dropbox/01_exo_project/real_data_and_shite"
 
 alias f="cd /home/conor/Programs/fits_forge"
